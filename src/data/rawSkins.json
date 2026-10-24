@@ -1,0 +1,2952 @@
+[
+  {
+    "uuid": "d8d5d7a1-4d81-8560-54bc-0692ab40f69b",
+    "displayName": "Kuronami Vandal",
+    "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/d8d5d7a1-4d81-8560-54bc-0692ab40f69b/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "3637a0be-4785-8841-9893-1198325185f2",
+        "displayName": "Kuronami Vandal",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3637a0be-4785-8841-9893-1198325185f2/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/3637a0be-4785-8841-9893-1198325185f2/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/3637a0be-4785-8841-9893-1198325185f2/swatch.png"
+      },
+      {
+        "uuid": "9dd03547-4cd7-3b80-3d10-beaebd36d6e7",
+        "displayName": "Kuronami Vandal Level 4\n(Variant 1 Purple)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9dd03547-4cd7-3b80-3d10-beaebd36d6e7/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/9dd03547-4cd7-3b80-3d10-beaebd36d6e7/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/9dd03547-4cd7-3b80-3d10-beaebd36d6e7/swatch.png"
+      },
+      {
+        "uuid": "b0113d7e-4417-0264-b5f5-949a8379bb21",
+        "displayName": "Kuronami Vandal Level 4\n(Variant 2 White)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b0113d7e-4417-0264-b5f5-949a8379bb21/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/b0113d7e-4417-0264-b5f5-949a8379bb21/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/b0113d7e-4417-0264-b5f5-949a8379bb21/swatch.png"
+      },
+      {
+        "uuid": "b899afbc-47fc-78bf-d30b-20863c1c89f0",
+        "displayName": "Kuronami Vandal Level 4\n(Variant 3 Black)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b899afbc-47fc-78bf-d30b-20863c1c89f0/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/b899afbc-47fc-78bf-d30b-20863c1c89f0/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/b899afbc-47fc-78bf-d30b-20863c1c89f0/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "636c1f83-44f7-6bc4-0b24-88a1beb66c2d",
+        "displayName": "Kuronami Vandal",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/636c1f83-44f7-6bc4-0b24-88a1beb66c2d/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/4a5b2d5e-4449-fd67-83f6-d7b1965b0593_default_universal.mp4"
+      },
+      {
+        "uuid": "97a5aab0-43ba-2044-4eb4-5d91af25bf7b",
+        "displayName": "Kuronami Vandal Level 2",
+        "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/97a5aab0-43ba-2044-4eb4-5d91af25bf7b/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/efece8bb-4c6a-3b39-9656-148460347405_default_universal.mp4"
+      },
+      {
+        "uuid": "a328d9bb-4f53-0ce0-cd21-a4a454e82d43",
+        "displayName": "Kuronami Vandal Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/a328d9bb-4f53-0ce0-cd21-a4a454e82d43/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/a6934549-4364-50b9-494d-d8898889956d_default_universal.mp4"
+      },
+      {
+        "uuid": "85d35e1c-4a21-172b-231f-5cb84550e48b",
+        "displayName": "Kuronami Vandal Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/f31888a6-470e-5d91-eff2-5ba6cd4ea087_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "b9ee2457-481c-6776-3f5b-0ca8e8f90c89",
+    "displayName": "Prime Vandal",
+    "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/b9ee2457-481c-6776-3f5b-0ca8e8f90c89/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "a26e0d1d-4886-7d62-6b4f-1996e706463d",
+        "displayName": "Prime Vandal",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a26e0d1d-4886-7d62-6b4f-1996e706463d/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/a26e0d1d-4886-7d62-6b4f-1996e706463d/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/a26e0d1d-4886-7d62-6b4f-1996e706463d/swatch.png"
+      },
+      {
+        "uuid": "ad2b0b8b-4da8-9c88-331a-028f2026ab66",
+        "displayName": "Prime Vandal Level 4\r\n(Variant 1 Orange)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ad2b0b8b-4da8-9c88-331a-028f2026ab66/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/ad2b0b8b-4da8-9c88-331a-028f2026ab66/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/ad2b0b8b-4da8-9c88-331a-028f2026ab66/swatch.png"
+      },
+      {
+        "uuid": "cd3ebdc1-4858-efda-6cee-c683726f8ca9",
+        "displayName": "Prime Vandal Level 4\r\n(Variant 2 Blue)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/cd3ebdc1-4858-efda-6cee-c683726f8ca9/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/cd3ebdc1-4858-efda-6cee-c683726f8ca9/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/cd3ebdc1-4858-efda-6cee-c683726f8ca9/swatch.png"
+      },
+      {
+        "uuid": "d43b8d21-4fb2-1224-1392-53ab6d829ed1",
+        "displayName": "Prime Vandal Level 4\r\n(Variant 3 Yellow)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d43b8d21-4fb2-1224-1392-53ab6d829ed1/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/d43b8d21-4fb2-1224-1392-53ab6d829ed1/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/d43b8d21-4fb2-1224-1392-53ab6d829ed1/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "c9678d8c-4327-f397-b0ec-dca3c3d6fb15",
+        "displayName": "Prime Vandal",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/c9678d8c-4327-f397-b0ec-dca3c3d6fb15/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/d9fe3b9b-6d9e-451f-84bd-b85d7f91a106_default_universal.mp4"
+      },
+      {
+        "uuid": "c6f9c7ef-4a35-fa14-c9ed-bd80e37be826",
+        "displayName": "Prime Vandal Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/c6f9c7ef-4a35-fa14-c9ed-bd80e37be826/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/b3ac314b-100a-4822-8464-e0c861ca9171_default_universal.mp4"
+      },
+      {
+        "uuid": "fc332008-475f-5555-0155-4cb3bce714ff",
+        "displayName": "Prime Vandal Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/fc332008-475f-5555-0155-4cb3bce714ff/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/3dce5c84-8554-4fba-aaa1-af725779014c_default_universal.mp4"
+      },
+      {
+        "uuid": "22821a32-4e04-ad4a-1893-95904c08b264",
+        "displayName": "Prime Vandal Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/22821a32-4e04-ad4a-1893-95904c08b264/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/97f7aa62-ede2-4e34-b5f8-efa798be6e86_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "30388628-42f0-606c-82c0-73ad43de997f",
+    "displayName": "Reaver Vandal",
+    "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/30388628-42f0-606c-82c0-73ad43de997f/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "2bd28382-48c6-8579-83e8-e9b64b783de3",
+        "displayName": "Reaver Vandal",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/2bd28382-48c6-8579-83e8-e9b64b783de3/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/2bd28382-48c6-8579-83e8-e9b64b783de3/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/2bd28382-48c6-8579-83e8-e9b64b783de3/swatch.png"
+      },
+      {
+        "uuid": "b2a065c0-4632-ccaa-f496-7681dc2a6185",
+        "displayName": "Reaver Vandal Level 4\r\n(Variant 1 Red)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b2a065c0-4632-ccaa-f496-7681dc2a6185/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/b2a065c0-4632-ccaa-f496-7681dc2a6185/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/b2a065c0-4632-ccaa-f496-7681dc2a6185/swatch.png"
+      },
+      {
+        "uuid": "db4461e5-40dd-1173-3b64-e5836f92f4dd",
+        "displayName": "Reaver Vandal Level 4\r\n(Variant 2 Black)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/db4461e5-40dd-1173-3b64-e5836f92f4dd/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/db4461e5-40dd-1173-3b64-e5836f92f4dd/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/db4461e5-40dd-1173-3b64-e5836f92f4dd/swatch.png"
+      },
+      {
+        "uuid": "b2619c1c-4974-4f06-f37b-c68b1d6d7bd1",
+        "displayName": "Reaver Vandal Level 4\r\n(Variant 3 White)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b2619c1c-4974-4f06-f37b-c68b1d6d7bd1/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/b2619c1c-4974-4f06-f37b-c68b1d6d7bd1/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/b2619c1c-4974-4f06-f37b-c68b1d6d7bd1/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "ba42fe63-457a-78ce-4499-47950a698129",
+        "displayName": "Reaver Vandal",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/ba42fe63-457a-78ce-4499-47950a698129/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/a6ee2555-4e3a-049e-916a-7ca853dd4568_default_universal.mp4"
+      },
+      {
+        "uuid": "6f9ba692-4618-d0e6-3099-42b4dc5fce89",
+        "displayName": "Reaver Vandal Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/78146b6e-49fc-115d-995e-309c5f18e3fd_default_universal.mp4"
+      },
+      {
+        "uuid": "98597b95-451c-70cf-46fb-31b4c5a54394",
+        "displayName": "Reaver Vandal Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/b21243ec-4cf0-37c0-43b4-15bf84de9d1d_default_universal.mp4"
+      },
+      {
+        "uuid": "8c282914-446a-3e99-095a-cd97df201c8b",
+        "displayName": "Reaver Vandal Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/d262fccc-465a-2da6-74ac-049ef3b3f759_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "4c926aa9-4f26-bc80-c486-9b888333373f",
+    "displayName": "Araxys Vandal",
+    "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/4c926aa9-4f26-bc80-c486-9b888333373f/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "a09f9850-4cb9-d0aa-63c7-6dbb5a64f27e",
+        "displayName": "Araxys Vandal",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a09f9850-4cb9-d0aa-63c7-6dbb5a64f27e/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/a09f9850-4cb9-d0aa-63c7-6dbb5a64f27e/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/a09f9850-4cb9-d0aa-63c7-6dbb5a64f27e/swatch.png"
+      },
+      {
+        "uuid": "03d3ef6f-42b9-234d-d89e-fd938511ed31",
+        "displayName": "Araxys Vandal Level 4\n(Variant 1 Purple)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/03d3ef6f-42b9-234d-d89e-fd938511ed31/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/03d3ef6f-42b9-234d-d89e-fd938511ed31/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/03d3ef6f-42b9-234d-d89e-fd938511ed31/swatch.png"
+      },
+      {
+        "uuid": "e3fca4fe-4617-8367-6738-9f92a89c3ba1",
+        "displayName": "Araxys Vandal Level 4\n(Variant 2 Black)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e3fca4fe-4617-8367-6738-9f92a89c3ba1/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/e3fca4fe-4617-8367-6738-9f92a89c3ba1/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/e3fca4fe-4617-8367-6738-9f92a89c3ba1/swatch.png"
+      },
+      {
+        "uuid": "6610c5f5-490b-e3a6-dca3-a8b21dcb3196",
+        "displayName": "Araxys Vandal Level 4\n(Variant 3 Silver)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/6610c5f5-490b-e3a6-dca3-a8b21dcb3196/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/6610c5f5-490b-e3a6-dca3-a8b21dcb3196/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/6610c5f5-490b-e3a6-dca3-a8b21dcb3196/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "a3dba920-44ee-d7c5-5227-99a80aee3bd9",
+        "displayName": "Araxys Vandal",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/a3dba920-44ee-d7c5-5227-99a80aee3bd9/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/1eb8c9a9-4cce-4497-c438-d5a630bb144f_default_universal.mp4"
+      },
+      {
+        "uuid": "6ecbed4a-4df2-cbac-ef9c-05b89e542224",
+        "displayName": "Araxys Vandal Level 2",
+        "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/b4cc610c-46b6-6d16-f7d2-a2ac0ebc636c_default_universal.mp4"
+      },
+      {
+        "uuid": "09c0d1f4-4f53-71ea-29ef-6d91719f8ae0",
+        "displayName": "Araxys Vandal Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/584a45c2-4db7-99a2-4d8a-fe8e38c67b2a_default_universal.mp4"
+      },
+      {
+        "uuid": "cf641af3-477a-b7da-b996-089d6168f3d1",
+        "displayName": "Araxys Vandal Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/fd6d375d-49a9-4b51-9f2a-ef8a30585b54_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "8e762a1f-4102-b7ce-d6a0-9690c5bfe160",
+    "displayName": "ChronoVoid Vandal",
+    "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/8e762a1f-4102-b7ce-d6a0-9690c5bfe160/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "d6be385b-44f7-271a-6b1b-34be3251b6c7",
+        "displayName": "ChronoVoid Vandal",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d6be385b-44f7-271a-6b1b-34be3251b6c7/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/d6be385b-44f7-271a-6b1b-34be3251b6c7/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/d6be385b-44f7-271a-6b1b-34be3251b6c7/swatch.png"
+      },
+      {
+        "uuid": "44ecb28b-4e9b-5a0c-336e-66939aed72b1",
+        "displayName": "ChronoVoid Vandal Level 4\n(Variant 1 Purple)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/44ecb28b-4e9b-5a0c-336e-66939aed72b1/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/44ecb28b-4e9b-5a0c-336e-66939aed72b1/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/44ecb28b-4e9b-5a0c-336e-66939aed72b1/swatch.png"
+      },
+      {
+        "uuid": "95246972-4a7c-01f9-16dc-d3aab7cc1b45",
+        "displayName": "ChronoVoid Vandal Level 4\n(Variant 2 Red)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/95246972-4a7c-01f9-16dc-d3aab7cc1b45/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/95246972-4a7c-01f9-16dc-d3aab7cc1b45/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/95246972-4a7c-01f9-16dc-d3aab7cc1b45/swatch.png"
+      },
+      {
+        "uuid": "57892cff-49ce-a57e-e657-faa1226b587c",
+        "displayName": "ChronoVoid Vandal Level 4\n(Variant 3 Black)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/57892cff-49ce-a57e-e657-faa1226b587c/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/57892cff-49ce-a57e-e657-faa1226b587c/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/57892cff-49ce-a57e-e657-faa1226b587c/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "59d61899-4573-65ea-0e42-2ea6d324d32b",
+        "displayName": "ChronoVoid Vandal",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/59d61899-4573-65ea-0e42-2ea6d324d32b/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/be38814b-4845-83c0-3e43-d2aa45d3e465_default_universal.mp4"
+      },
+      {
+        "uuid": "6553ba0a-4d44-799e-69cc-a89aae212409",
+        "displayName": "ChronoVoid Vandal Level 2",
+        "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/ca373acf-41a6-f896-da35-4388efe701ce_default_universal.mp4"
+      },
+      {
+        "uuid": "bd2d47b0-42f8-6684-bf01-6c886faff0c8",
+        "displayName": "ChronoVoid Vandal Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/d72f024a-4bbc-a2d4-b0ee-6d9e14c90927_default_universal.mp4"
+      },
+      {
+        "uuid": "a722bac4-457a-959b-3770-e0b3eaf6528e",
+        "displayName": "ChronoVoid Vandal Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/082fe9c3-4fb8-9b23-b79a-fda02ebd310f_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "522a264e-4ca7-adb0-6cf1-28b2ef938727",
+    "displayName": "Prelude to Chaos Vandal",
+    "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/522a264e-4ca7-adb0-6cf1-28b2ef938727/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "10ff3757-4099-f828-d391-e28d2e634924",
+        "displayName": "Prelude to Chaos Vandal",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/10ff3757-4099-f828-d391-e28d2e634924/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/10ff3757-4099-f828-d391-e28d2e634924/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/10ff3757-4099-f828-d391-e28d2e634924/swatch.png"
+      },
+      {
+        "uuid": "eef9e539-48dc-f161-a608-ecb1634d3b6b",
+        "displayName": "Prelude to Chaos Vandal Level 4\n(Variant 1 Green)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/eef9e539-48dc-f161-a608-ecb1634d3b6b/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/eef9e539-48dc-f161-a608-ecb1634d3b6b/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/eef9e539-48dc-f161-a608-ecb1634d3b6b/swatch.png"
+      },
+      {
+        "uuid": "9c6107f4-4fbf-0b77-c291-1da85c76894b",
+        "displayName": "Prelude to Chaos Vandal Level 4\n(Variant 2 White)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9c6107f4-4fbf-0b77-c291-1da85c76894b/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/9c6107f4-4fbf-0b77-c291-1da85c76894b/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/9c6107f4-4fbf-0b77-c291-1da85c76894b/swatch.png"
+      },
+      {
+        "uuid": "fa0a3567-4a25-1a13-b078-3c97265e3adc",
+        "displayName": "Prelude to Chaos Vandal Level 4\n(Variant 3 Blue)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/fa0a3567-4a25-1a13-b078-3c97265e3adc/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/fa0a3567-4a25-1a13-b078-3c97265e3adc/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/fa0a3567-4a25-1a13-b078-3c97265e3adc/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "1010fb40-4344-6ec8-2a8a-33bf076339b6",
+        "displayName": "Prelude to Chaos Vandal",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/1010fb40-4344-6ec8-2a8a-33bf076339b6/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/7fa57a20-417f-e674-90e3-c7b359f1aa9f_default_universal.mp4"
+      },
+      {
+        "uuid": "273db50c-41fd-99eb-89fa-d0969ef739bb",
+        "displayName": "Prelude to Chaos Vandal Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/72cecd6d-4f72-c3a2-f2f9-3590d2f8fc5a_default_universal.mp4"
+      },
+      {
+        "uuid": "0b2b3fb5-415d-ed9e-d865-5aa90a28894e",
+        "displayName": "Prelude to Chaos Vandal Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/adc204d6-43c2-4f87-f0d7-e28ffc24cb17_default_universal.mp4"
+      },
+      {
+        "uuid": "a4021006-49be-e1f3-b2e1-cc8635694d0c",
+        "displayName": "Prelude to Chaos Vandal Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/c55cd24b-4e51-cf85-7c5d-75a66c6612bb_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "74789f33-4632-8052-96d7-258538721a32",
+    "displayName": "Glitchpop Vandal",
+    "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/74789f33-4632-8052-96d7-258538721a32/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "b58f249b-4e8f-5532-6f35-a9b3b39dc15c",
+        "displayName": "Glitchpop Vandal",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b58f249b-4e8f-5532-6f35-a9b3b39dc15c/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/b58f249b-4e8f-5532-6f35-a9b3b39dc15c/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/b58f249b-4e8f-5532-6f35-a9b3b39dc15c/swatch.png"
+      },
+      {
+        "uuid": "05dc58f4-4170-c088-ba23-fd9a2ddcfa9d",
+        "displayName": "Glitchpop Vandal Level 4\n(Variant 1 Blue)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/05dc58f4-4170-c088-ba23-fd9a2ddcfa9d/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/05dc58f4-4170-c088-ba23-fd9a2ddcfa9d/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/05dc58f4-4170-c088-ba23-fd9a2ddcfa9d/swatch.png"
+      },
+      {
+        "uuid": "16e8a438-4761-1887-3792-7bab966a7483",
+        "displayName": "Glitchpop Vandal Level 4\n(Variant 2 Red)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/16e8a438-4761-1887-3792-7bab966a7483/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/16e8a438-4761-1887-3792-7bab966a7483/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/16e8a438-4761-1887-3792-7bab966a7483/swatch.png"
+      },
+      {
+        "uuid": "d9c26f8e-496a-16c1-36e1-cfb81fb22d5f",
+        "displayName": "Glitchpop Vandal Level 4\n(Variant 3 Gold)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d9c26f8e-496a-16c1-36e1-cfb81fb22d5f/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/d9c26f8e-496a-16c1-36e1-cfb81fb22d5f/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/d9c26f8e-496a-16c1-36e1-cfb81fb22d5f/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "7e44fc1b-44fa-cdda-8491-f8a5bca1cfa3",
+        "displayName": "Glitchpop Vandal",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/7e44fc1b-44fa-cdda-8491-f8a5bca1cfa3/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/dfd6f8c8-43b5-2f8b-410e-278a1491c768_default_universal.mp4"
+      },
+      {
+        "uuid": "c01d91bb-4203-4f78-0b6a-1aae9abb458b",
+        "displayName": "Glitchpop Vandal Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/307efc8f-4994-5cb5-41f7-9eb7c3ab8988_default_universal.mp4"
+      },
+      {
+        "uuid": "084e16e5-4340-618f-09ba-128331f9b8cc",
+        "displayName": "Glitchpop Vandal Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/ab475181-4799-3545-54aa-e18e1615f2ba_default_universal.mp4"
+      },
+      {
+        "uuid": "7a322cff-4acb-15c4-5006-049655bfa22f",
+        "displayName": "Glitchpop Vandal Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/50d495f7-4b39-e737-cd70-448a7316fbfc_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "f328add7-4710-ab8d-95bb-409bc8278a35",
+    "displayName": "Cryostasis Vandal",
+    "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/f328add7-4710-ab8d-95bb-409bc8278a35/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "886d24da-42ba-62cd-9d25-a7813ee686cc",
+        "displayName": "Cryostasis Vandal",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/886d24da-42ba-62cd-9d25-a7813ee686cc/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/886d24da-42ba-62cd-9d25-a7813ee686cc/fullrender.png",
+        "swatch": null
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "690bcddd-4b2e-d856-7b4f-0e81f7c21133",
+        "displayName": "Cryostasis Vandal",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/690bcddd-4b2e-d856-7b4f-0e81f7c21133/displayicon.png",
+        "streamedVideo": null
+      },
+      {
+        "uuid": "d6f6111f-467a-addd-25fa-f9ac9d01d8f9",
+        "displayName": "Cryostasis Vandal Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/b35cb102-4e51-19f5-7f44-dfb582a74234_default_universal.mp4"
+      },
+      {
+        "uuid": "14f8c385-4ed1-e5a1-f129-6c8914bd16af",
+        "displayName": "Cryostasis Vandal Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/8a4ae5e4-454e-069f-baea-5991e7f7620b_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "db91451c-4309-2c8c-eded-bf842d844e52",
+    "displayName": "Neptune Vandal",
+    "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/db91451c-4309-2c8c-eded-bf842d844e52/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "9a2125b3-4e53-4757-fe1c-4e9b31ae0c28",
+        "displayName": "Neptune Vandal",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9a2125b3-4e53-4757-fe1c-4e9b31ae0c28/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/9a2125b3-4e53-4757-fe1c-4e9b31ae0c28/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/9a2125b3-4e53-4757-fe1c-4e9b31ae0c28/swatch.png"
+      },
+      {
+        "uuid": "ffc33c1e-473a-6609-3996-a787615ef467",
+        "displayName": "Neptune Vandal Level 3\n(Variant 1 Black)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ffc33c1e-473a-6609-3996-a787615ef467/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/ffc33c1e-473a-6609-3996-a787615ef467/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/ffc33c1e-473a-6609-3996-a787615ef467/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "49cea67c-4552-13c2-6b4b-8ba07761504e",
+        "displayName": "Neptune Vandal",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/49cea67c-4552-13c2-6b4b-8ba07761504e/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/c554cfcb-4fcb-de12-428a-46bb8cdfe6dc_default_universal.mp4"
+      },
+      {
+        "uuid": "24e39414-4a8e-e800-1242-08bd94b5e3c4",
+        "displayName": "Neptune Vandal Level 2",
+        "levelItem": "EEquippableSkinLevelItem::FishAnimation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/5e9ff67a-4252-d007-8f41-1484ccc84be8_default_universal.mp4"
+      },
+      {
+        "uuid": "7b2826b6-4771-7529-b656-b89b9c1d86b6",
+        "displayName": "Neptune Vandal Level 3",
+        "levelItem": "EEquippableSkinLevelItem::KillBanner",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/48511c6c-4875-db6c-fad1-f0b8f2500c6d_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "6c4315b8-4ff1-baaa-5aac-5790c7443353",
+    "displayName": "Origin Vandal",
+    "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/6c4315b8-4ff1-baaa-5aac-5790c7443353/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "de2a2b29-4a65-459e-a822-ccacbff53d46",
+        "displayName": "Origin Vandal",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/de2a2b29-4a65-459e-a822-ccacbff53d46/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/de2a2b29-4a65-459e-a822-ccacbff53d46/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/de2a2b29-4a65-459e-a822-ccacbff53d46/swatch.png"
+      },
+      {
+        "uuid": "11406ee3-472c-dc1a-98f7-bfa8f2e3658b",
+        "displayName": "Origin Vandal Level 4\n(Variant 1 Green)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/11406ee3-472c-dc1a-98f7-bfa8f2e3658b/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/11406ee3-472c-dc1a-98f7-bfa8f2e3658b/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/11406ee3-472c-dc1a-98f7-bfa8f2e3658b/swatch.png"
+      },
+      {
+        "uuid": "6153bc01-4807-c705-e576-63beb9c8e930",
+        "displayName": "Origin Vandal Level 4\n(Variant 2 Red)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/6153bc01-4807-c705-e576-63beb9c8e930/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/6153bc01-4807-c705-e576-63beb9c8e930/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/6153bc01-4807-c705-e576-63beb9c8e930/swatch.png"
+      },
+      {
+        "uuid": "0e16ba9e-48d4-85fd-3b76-84abc19932a0",
+        "displayName": "Origin Vandal Level 4\n(Variant 3 White)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0e16ba9e-48d4-85fd-3b76-84abc19932a0/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/0e16ba9e-48d4-85fd-3b76-84abc19932a0/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/0e16ba9e-48d4-85fd-3b76-84abc19932a0/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "1969e379-40ae-b28a-6fb3-819873a24fb9",
+        "displayName": "Origin Vandal",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/1969e379-40ae-b28a-6fb3-819873a24fb9/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/11e35445-4975-1581-bfc4-bb801829f5ef_default_universal.mp4"
+      },
+      {
+        "uuid": "2ee1c6e6-4213-723f-1fd8-c9a76c00ff72",
+        "displayName": "Origin Vandal Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/e5a31b3b-47a6-a3f6-938d-09b3706bd0fd_default_universal.mp4"
+      },
+      {
+        "uuid": "43e8a873-4ddf-1c73-6d91-3786b9fb3145",
+        "displayName": "Origin Vandal Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/0359b063-473d-6d2c-57eb-87a1e6d5dfdc_default_universal.mp4"
+      },
+      {
+        "uuid": "66c8a651-4a8c-aa44-1af0-088118b9a975",
+        "displayName": "Origin Vandal Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/fa057e7c-47d9-7e93-3660-bc868752d220_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "36791b03-452d-8dad-0091-898cc28d2196",
+    "displayName": "Oni Phantom",
+    "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/36791b03-452d-8dad-0091-898cc28d2196/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "6096a66f-43d2-d4ad-6421-84aee3386921",
+        "displayName": "Oni Phantom",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/6096a66f-43d2-d4ad-6421-84aee3386921/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/6096a66f-43d2-d4ad-6421-84aee3386921/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/6096a66f-43d2-d4ad-6421-84aee3386921/swatch.png"
+      },
+      {
+        "uuid": "b639a920-424b-b855-1e30-7f9b026889f1",
+        "displayName": "Oni Phantom Level 4\r\n(Variant 1 Kumo)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b639a920-424b-b855-1e30-7f9b026889f1/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/b639a920-424b-b855-1e30-7f9b026889f1/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/b639a920-424b-b855-1e30-7f9b026889f1/swatch.png"
+      },
+      {
+        "uuid": "6f9c7109-485a-f2a3-cb1d-9f9a31a995d7",
+        "displayName": "Oni Phantom Level 4\r\n(Variant 2 Hana)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/6f9c7109-485a-f2a3-cb1d-9f9a31a995d7/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/6f9c7109-485a-f2a3-cb1d-9f9a31a995d7/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/6f9c7109-485a-f2a3-cb1d-9f9a31a995d7/swatch.png"
+      },
+      {
+        "uuid": "32dfe871-4906-d2ce-4835-2d99aaa52f84",
+        "displayName": "Oni Phantom Level 4\r\n(Variant 3 Tsubame)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/32dfe871-4906-d2ce-4835-2d99aaa52f84/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/32dfe871-4906-d2ce-4835-2d99aaa52f84/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/32dfe871-4906-d2ce-4835-2d99aaa52f84/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "c00e786e-4e6f-0ef7-0ce3-32ba9918ba41",
+        "displayName": "Oni Phantom",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/c00e786e-4e6f-0ef7-0ce3-32ba9918ba41/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/d95f2acb-428c-2abd-3e6c-c2af3806bee9_default_universal.mp4"
+      },
+      {
+        "uuid": "2c4e829a-4915-e9d8-5c6f-43a39d60afc0",
+        "displayName": "Oni Phantom Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/2c4e829a-4915-e9d8-5c6f-43a39d60afc0/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/f9716000-41f5-8847-8e8e-c7ba525da601_default_universal.mp4"
+      },
+      {
+        "uuid": "bb07581b-4733-ce33-53d4-3dadc038ca4a",
+        "displayName": "Oni Phantom Level 3",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/bb07581b-4733-ce33-53d4-3dadc038ca4a/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/4939d79a-45d5-382a-1a97-208eb7c8766e_default_universal.mp4"
+      },
+      {
+        "uuid": "1b24255d-4f50-9202-7b6f-f7873db580d1",
+        "displayName": "Oni Phantom Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/1b24255d-4f50-9202-7b6f-f7873db580d1/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/23694a4e-4f34-1ba5-d649-dc9a09880d18_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "44b7b110-46bf-ccbb-2613-29a5df296461",
+    "displayName": "Prime//2.0 Phantom",
+    "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/44b7b110-46bf-ccbb-2613-29a5df296461/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "264eaaeb-4038-4bf4-3760-eb9f9c21edcb",
+        "displayName": "Prime//2.0 Phantom",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/264eaaeb-4038-4bf4-3760-eb9f9c21edcb/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/264eaaeb-4038-4bf4-3760-eb9f9c21edcb/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/264eaaeb-4038-4bf4-3760-eb9f9c21edcb/swatch.png"
+      },
+      {
+        "uuid": "171f9591-4efd-9fde-d555-d3b570f64d14",
+        "displayName": "Prime//2.0 Phantom Level 4\n(Variant 1 Gold)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/171f9591-4efd-9fde-d555-d3b570f64d14/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/171f9591-4efd-9fde-d555-d3b570f64d14/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/171f9591-4efd-9fde-d555-d3b570f64d14/swatch.png"
+      },
+      {
+        "uuid": "742816a7-4449-044a-b3a3-06940f38ff6a",
+        "displayName": "Prime//2.0 Phantom Level 4\n(Variant 2 Green)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/742816a7-4449-044a-b3a3-06940f38ff6a/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/742816a7-4449-044a-b3a3-06940f38ff6a/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/742816a7-4449-044a-b3a3-06940f38ff6a/swatch.png"
+      },
+      {
+        "uuid": "c805c92a-4424-69f2-a0f2-8c8c9bb33a4a",
+        "displayName": "Prime//2.0 Phantom Level 4\n(Variant 3 Orange)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c805c92a-4424-69f2-a0f2-8c8c9bb33a4a/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/c805c92a-4424-69f2-a0f2-8c8c9bb33a4a/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/c805c92a-4424-69f2-a0f2-8c8c9bb33a4a/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "9dc0bdd7-4d88-9360-38d6-3ea62b1daaca",
+        "displayName": "Prime//2.0 Phantom",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/9dc0bdd7-4d88-9360-38d6-3ea62b1daaca/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/5dcc377a-429e-bdb9-f780-998c2b987a7c_default_universal.mp4"
+      },
+      {
+        "uuid": "63295da5-48de-df35-3b77-868a779638a3",
+        "displayName": "Prime//2.0 Phantom Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/fec75754-4347-0c46-a87a-dab28efa26b3_default_universal.mp4"
+      },
+      {
+        "uuid": "0f68f728-4d09-f66d-73e3-c9a8f2643652",
+        "displayName": "Prime//2.0 Phantom Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/6b050683-4258-4247-f74d-6aad6cddd981_default_universal.mp4"
+      },
+      {
+        "uuid": "ed4773ba-465d-6501-701a-e39d1ba0b97a",
+        "displayName": "Prime//2.0 Phantom Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/91e8e9f4-4ec0-9904-6dd0-ce8831a25a05_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "d67b929f-4431-61c0-286e-3ebf3d11c4af",
+    "displayName": "Recon Phantom",
+    "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/d67b929f-4431-61c0-286e-3ebf3d11c4af/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "273edf84-45cf-0266-21d8-a4969bd31b6d",
+        "displayName": "Recon Phantom",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/273edf84-45cf-0266-21d8-a4969bd31b6d/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/273edf84-45cf-0266-21d8-a4969bd31b6d/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/273edf84-45cf-0266-21d8-a4969bd31b6d/swatch.png"
+      },
+      {
+        "uuid": "de24bd21-4a2c-148b-f20a-0b83ca55ac12",
+        "displayName": "Recon Phantom Level 4\n(Variant 1 Red Camo)",
+        "displayIcon": null,
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/de24bd21-4a2c-148b-f20a-0b83ca55ac12/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/de24bd21-4a2c-148b-f20a-0b83ca55ac12/swatch.png"
+      },
+      {
+        "uuid": "8478de28-463d-5734-2d62-3e94c5d5a0c1",
+        "displayName": "Recon Phantom Level 4\n(Variant 2 Blue Camo)",
+        "displayIcon": null,
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/8478de28-463d-5734-2d62-3e94c5d5a0c1/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/8478de28-463d-5734-2d62-3e94c5d5a0c1/swatch.png"
+      },
+      {
+        "uuid": "1803ef04-4f78-d8bc-98c8-1fb55b1a6063",
+        "displayName": "Recon Phantom Level 4\n(Variant 3 Green Camo)",
+        "displayIcon": null,
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/1803ef04-4f78-d8bc-98c8-1fb55b1a6063/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/1803ef04-4f78-d8bc-98c8-1fb55b1a6063/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "5be0b43b-4e66-ab8a-91d9-be9137e2e1c2",
+        "displayName": "Recon Phantom",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/5be0b43b-4e66-ab8a-91d9-be9137e2e1c2/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/89ea0df6-4d76-cb26-95c5-79bd165442cc_default_universal.mp4"
+      },
+      {
+        "uuid": "a8509c8d-4061-1c57-60a5-61a025f28408",
+        "displayName": "Recon Phantom Level 2",
+        "levelItem": "EEquippableSkinLevelItem::Randomizer",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/38fbeb1f-42d0-ecc4-aa85-29b432c08e82_default_universal.mp4"
+      },
+      {
+        "uuid": "b64d1e55-402d-de3c-6ad5-ffbc9c201d1f",
+        "displayName": "Recon Phantom Level 3",
+        "levelItem": null,
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/a8de3306-4bc1-ec6a-5fc3-57acb68edff2_default_universal.mp4"
+      },
+      {
+        "uuid": "e47e2e77-4923-dbe8-ab46-aba9af1a029e",
+        "displayName": "Recon Phantom Level 4",
+        "levelItem": "EEquippableSkinLevelItem::KillBanner",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/b42d5a73-4e83-bab5-e94b-9bba720fb713_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "4eb45d71-4fa4-be4f-7409-cf92123f1d22",
+    "displayName": "Radiant Entertainment System Phantom",
+    "contentTierUuid": "411e4a55-4e59-7757-41f0-86a53f101bb5",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/4eb45d71-4fa4-be4f-7409-cf92123f1d22/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "4f04a759-4406-9ab7-18b4-0a9044ecdd60",
+        "displayName": "Radiant Entertainment System Phantom",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/4f04a759-4406-9ab7-18b4-0a9044ecdd60/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/4f04a759-4406-9ab7-18b4-0a9044ecdd60/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/4f04a759-4406-9ab7-18b4-0a9044ecdd60/swatch.png"
+      },
+      {
+        "uuid": "a9aa0b3b-4f6b-52eb-ce5c-4fae5eb240ab",
+        "displayName": "Radiant Entertainment System Phantom Level 4\n(Variant 1 Dance Fever)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a9aa0b3b-4f6b-52eb-ce5c-4fae5eb240ab/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/a9aa0b3b-4f6b-52eb-ce5c-4fae5eb240ab/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/a9aa0b3b-4f6b-52eb-ce5c-4fae5eb240ab/swatch.png"
+      },
+      {
+        "uuid": "91e9bfbe-4de0-03d1-d1ea-1d8fcea4a7ab",
+        "displayName": "Radiant Entertainment System Phantom Level 4\n(Variant 2 K.nock O.ut!!)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/91e9bfbe-4de0-03d1-d1ea-1d8fcea4a7ab/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/91e9bfbe-4de0-03d1-d1ea-1d8fcea4a7ab/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/91e9bfbe-4de0-03d1-d1ea-1d8fcea4a7ab/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "28a7fd58-425c-6aa7-40d6-539d5fdac46c",
+        "displayName": "Radiant Entertainment System Phantom",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/28a7fd58-425c-6aa7-40d6-539d5fdac46c/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/1f859a96-4380-74e2-41f3-6c91e232d1fa_default_universal.mp4"
+      },
+      {
+        "uuid": "661e08fc-4459-af2d-2d58-f7960825ee20",
+        "displayName": "Radiant Entertainment System Phantom Level 2",
+        "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/5e0cdfc3-46e2-d0f9-757f-4bbeae2ef98f_default_universal.mp4"
+      },
+      {
+        "uuid": "6f0098d9-4809-a69e-334e-19b68fac39a2",
+        "displayName": "Radiant Entertainment System Phantom Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/1b4d122a-496f-2410-2941-2095c334123d_default_universal.mp4"
+      },
+      {
+        "uuid": "fc3f7834-495b-30c2-d341-4d8ff3101ee6",
+        "displayName": "Radiant Entertainment System Phantom Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/424ab4c1-4745-5ccf-0848-2caf41e2c1c4_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "25a7f0f2-4bce-7e45-b4b0-ca9264f5dfcc",
+    "displayName": "Glitchpop Phantom",
+    "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/25a7f0f2-4bce-7e45-b4b0-ca9264f5dfcc/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "7dd3f7d8-455b-bc3a-94b8-af9fba0bebed",
+        "displayName": "Glitchpop Phantom",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/7dd3f7d8-455b-bc3a-94b8-af9fba0bebed/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/7dd3f7d8-455b-bc3a-94b8-af9fba0bebed/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/7dd3f7d8-455b-bc3a-94b8-af9fba0bebed/swatch.png"
+      },
+      {
+        "uuid": "ff938463-444c-9bdc-38fa-3c98e865ab31",
+        "displayName": "Glitchpop Phantom Level 4\n(Variant 1 Blue)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ff938463-444c-9bdc-38fa-3c98e865ab31/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/ff938463-444c-9bdc-38fa-3c98e865ab31/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/ff938463-444c-9bdc-38fa-3c98e865ab31/swatch.png"
+      },
+      {
+        "uuid": "710ff5e9-48fd-5890-b061-9689f54fe848",
+        "displayName": "Glitchpop Phantom Level 4\n(Variant 2 Red)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/710ff5e9-48fd-5890-b061-9689f54fe848/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/710ff5e9-48fd-5890-b061-9689f54fe848/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/710ff5e9-48fd-5890-b061-9689f54fe848/swatch.png"
+      },
+      {
+        "uuid": "ba802a0b-4038-4208-89c7-58828408ebed",
+        "displayName": "Glitchpop Phantom Level 4\n(Variant 3 Gold)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ba802a0b-4038-4208-89c7-58828408ebed/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/ba802a0b-4038-4208-89c7-58828408ebed/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/ba802a0b-4038-4208-89c7-58828408ebed/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "9f6e4612-433b-aea9-1683-3db7aee90848",
+        "displayName": "Glitchpop Phantom",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/9f6e4612-433b-aea9-1683-3db7aee90848/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/41364d33-4ec7-cf4a-72ef-e6ad28c08c8e_default_universal.mp4"
+      },
+      {
+        "uuid": "07e8bbcb-488e-b038-630f-c3a7c4f4763f",
+        "displayName": "Glitchpop Phantom Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/2ed7f9e9-4fdc-85ff-603a-b48533ab9fa3_default_universal.mp4"
+      },
+      {
+        "uuid": "7f54b1ac-49b5-48ec-9926-8a966a0233a5",
+        "displayName": "Glitchpop Phantom Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/7f0491e2-4820-fff9-c8b1-8eb08f1bd6c4_default_universal.mp4"
+      },
+      {
+        "uuid": "dee8b295-4a06-15fb-e952-acb6298d5929",
+        "displayName": "Glitchpop Phantom Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/7773171d-4c54-99bf-70e5-b5b8921d3f9a_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "e86bf7e4-4dd3-fbee-533b-fa875344bbaf",
+    "displayName": "Ion Phantom",
+    "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/e86bf7e4-4dd3-fbee-533b-fa875344bbaf/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "b9c9eb56-4cbd-04b7-06a8-329dc6f1e73a",
+        "displayName": "Ion Phantom",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b9c9eb56-4cbd-04b7-06a8-329dc6f1e73a/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/b9c9eb56-4cbd-04b7-06a8-329dc6f1e73a/fullrender.png",
+        "swatch": null
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "b8bb264c-4578-2410-8dfa-6aacfeb318b0",
+        "displayName": "Ion Phantom",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/b8bb264c-4578-2410-8dfa-6aacfeb318b0/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/8c999cd4-464f-e7e3-d4ab-b9bcd07e2e52_default_universal.mp4"
+      },
+      {
+        "uuid": "d8168629-4e42-1359-4401-ffbb79f59866",
+        "displayName": "Ion Phantom Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/d8168629-4e42-1359-4401-ffbb79f59866/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/7c7757cb-4cf5-c953-61d8-ce898f79ce74_default_universal.mp4"
+      },
+      {
+        "uuid": "1b251e84-47f3-738d-c686-6cb718e66c71",
+        "displayName": "Ion Phantom Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/1b251e84-47f3-738d-c686-6cb718e66c71/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/127a9c2a-42a2-e334-f338-368060f85e4f_default_universal.mp4"
+      },
+      {
+        "uuid": "f97aa61f-4119-f21a-621d-589fe5e55b01",
+        "displayName": "Ion Phantom Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f97aa61f-4119-f21a-621d-589fe5e55b01/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/e8dcae48-4e0d-1459-0cff-729f96390349_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "980fa063-436e-e51f-c38d-70a5b93a0f1c",
+    "displayName": "Spectrum Phantom",
+    "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/980fa063-436e-e51f-c38d-70a5b93a0f1c/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "e9014a77-4a74-4ea7-999c-44b0d0f84daa",
+        "displayName": "Spectrum Phantom",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e9014a77-4a74-4ea7-999c-44b0d0f84daa/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/e9014a77-4a74-4ea7-999c-44b0d0f84daa/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/e9014a77-4a74-4ea7-999c-44b0d0f84daa/swatch.png"
+      },
+      {
+        "uuid": "e924a97d-46aa-3c3e-ec39-9abfeb811f2b",
+        "displayName": "Spectrum Phantom Level 4\n(Variant 1 Black)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e924a97d-46aa-3c3e-ec39-9abfeb811f2b/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/e924a97d-46aa-3c3e-ec39-9abfeb811f2b/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/e924a97d-46aa-3c3e-ec39-9abfeb811f2b/swatch.png"
+      },
+      {
+        "uuid": "449a0d94-4320-dd8c-d458-fba5fdc04eb0",
+        "displayName": "Spectrum Phantom Level 4\n(Variant 2 Red)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/449a0d94-4320-dd8c-d458-fba5fdc04eb0/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/449a0d94-4320-dd8c-d458-fba5fdc04eb0/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/449a0d94-4320-dd8c-d458-fba5fdc04eb0/swatch.png"
+      },
+      {
+        "uuid": "7e10eabf-476b-0bcb-5847-e8958d6f1132",
+        "displayName": "Spectrum Phantom Level 4\n(Variant 3 Purple/Pink)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/7e10eabf-476b-0bcb-5847-e8958d6f1132/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/7e10eabf-476b-0bcb-5847-e8958d6f1132/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/7e10eabf-476b-0bcb-5847-e8958d6f1132/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "82db01d1-4192-167b-9f53-78ba374c39ac",
+        "displayName": "Spectrum Phantom",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/82db01d1-4192-167b-9f53-78ba374c39ac/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/6ce49b69-45a8-c7bb-865f-6fa6bceeea72_default_universal.mp4"
+      },
+      {
+        "uuid": "8021e6d9-4916-32a9-e2cd-ff9c947a96c5",
+        "displayName": "Spectrum Phantom Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/fe20185e-43e5-c02e-24cd-97b04179e7ed_default_universal.mp4"
+      },
+      {
+        "uuid": "831939b1-42e6-6ad3-708b-b58ff2ea64fb",
+        "displayName": "Spectrum Phantom Level 3",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/831939b1-42e6-6ad3-708b-b58ff2ea64fb/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/bdf22bf1-4ef6-b866-de7e-999ab77007f3_default_universal.mp4"
+      },
+      {
+        "uuid": "2a744a2b-4dab-71a6-0e2e-7f84d4cf8365",
+        "displayName": "Spectrum Phantom Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/5e0c9119-42ab-7fb3-b6f6-d081fc77fa2a_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "5b43d27b-419c-f2bc-53fe-d7829dad46b3",
+    "displayName": "Ruination Phantom",
+    "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/5b43d27b-419c-f2bc-53fe-d7829dad46b3/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "0d6eac16-4f0f-1014-e6b2-65aa72f2edff",
+        "displayName": "Ruination Phantom",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0d6eac16-4f0f-1014-e6b2-65aa72f2edff/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/0d6eac16-4f0f-1014-e6b2-65aa72f2edff/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/0d6eac16-4f0f-1014-e6b2-65aa72f2edff/swatch.png"
+      },
+      {
+        "uuid": "948b7eea-467e-5fc3-4314-d191305fb68e",
+        "displayName": "Ruination Phantom Level 4\n(Variant 1 Purple)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/948b7eea-467e-5fc3-4314-d191305fb68e/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/948b7eea-467e-5fc3-4314-d191305fb68e/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/948b7eea-467e-5fc3-4314-d191305fb68e/swatch.png"
+      },
+      {
+        "uuid": "7f466f2f-4c80-1222-5c3f-989486cfabc3",
+        "displayName": "Ruination Phantom Level 4\n(Variant 2 Red/Yellow)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/7f466f2f-4c80-1222-5c3f-989486cfabc3/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/7f466f2f-4c80-1222-5c3f-989486cfabc3/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/7f466f2f-4c80-1222-5c3f-989486cfabc3/swatch.png"
+      },
+      {
+        "uuid": "0ebb5188-4528-d6f6-7576-bb87e980a2d4",
+        "displayName": "Ruination Phantom Level 4\n(Variant 3 Green)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0ebb5188-4528-d6f6-7576-bb87e980a2d4/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/0ebb5188-4528-d6f6-7576-bb87e980a2d4/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/0ebb5188-4528-d6f6-7576-bb87e980a2d4/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "279e0a89-4dd6-b135-cef9-8ebb1df6f2ac",
+        "displayName": "Ruination Phantom",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/279e0a89-4dd6-b135-cef9-8ebb1df6f2ac/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/bd9ebcc4-4a3a-b8cb-9cda-d5838341a4c0_default_universal.mp4"
+      },
+      {
+        "uuid": "9f3ecff5-4662-075d-1684-1eaa7e604fcd",
+        "displayName": "Ruination Phantom Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/eb447856-470d-4019-d99b-7a92c4d07c5a_default_universal.mp4"
+      },
+      {
+        "uuid": "770549d5-493b-be86-2b38-098d394d1406",
+        "displayName": "Ruination Phantom Level 3",
+        "levelItem": null,
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/fa6e5651-415d-aed3-6e7b-a6b150565597_default_universal.mp4"
+      },
+      {
+        "uuid": "9b6f0d5b-4bb9-9b45-2564-a2aac9d2526b",
+        "displayName": "Ruination Phantom Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/44229d59-4893-31ca-2240-aaa29f94c6e4_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "9877d50b-43b1-837a-802a-bf8a3b98e2dd",
+    "displayName": "Protocol 781-A Phantom",
+    "contentTierUuid": "411e4a55-4e59-7757-41f0-86a53f101bb5",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/9877d50b-43b1-837a-802a-bf8a3b98e2dd/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "89f9432f-4c8e-cefe-73bd-26966c875647",
+        "displayName": "Protocol 781-A Phantom",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/89f9432f-4c8e-cefe-73bd-26966c875647/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/89f9432f-4c8e-cefe-73bd-26966c875647/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/89f9432f-4c8e-cefe-73bd-26966c875647/swatch.png"
+      },
+      {
+        "uuid": "15008ebb-478d-5d5c-a5b7-3181583161f4",
+        "displayName": "Protocol 781-A Phantom Level 5\r\n(Variant 1 White/Pink)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/15008ebb-478d-5d5c-a5b7-3181583161f4/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/15008ebb-478d-5d5c-a5b7-3181583161f4/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/15008ebb-478d-5d5c-a5b7-3181583161f4/swatch.png"
+      },
+      {
+        "uuid": "4a8846e9-4051-2813-db9f-7a8e274542a1",
+        "displayName": "Protocol 781-A Phantom Level 5\r\n(Variant 2 Red/Blue)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/4a8846e9-4051-2813-db9f-7a8e274542a1/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/4a8846e9-4051-2813-db9f-7a8e274542a1/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/4a8846e9-4051-2813-db9f-7a8e274542a1/swatch.png"
+      },
+      {
+        "uuid": "5822d67c-47a4-015b-ae91-eab163d5e4f5",
+        "displayName": "Protocol 781-A Phantom Level 5\r\n(Variant 3 Green)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/5822d67c-47a4-015b-ae91-eab163d5e4f5/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/5822d67c-47a4-015b-ae91-eab163d5e4f5/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/5822d67c-47a4-015b-ae91-eab163d5e4f5/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "a7cf8684-41a0-3dd4-e30c-6f9b4b34e635",
+        "displayName": "Protocol 781-A Phantom",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/a7cf8684-41a0-3dd4-e30c-6f9b4b34e635/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/d81f9aae-4071-3a67-3acb-b898f3f6e9d1_default_universal.mp4"
+      },
+      {
+        "uuid": "2c072ecb-41dc-8e3a-b39d-fc954c0cf450",
+        "displayName": "Protocol 781-A Phantom Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/7f89c65a-45d2-563e-b3d2-28a88a1880e3_default_universal.mp4"
+      },
+      {
+        "uuid": "91bb9969-4c02-decb-7c01-24aee1efa6d9",
+        "displayName": "Protocol 781-A Phantom Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/b56c5202-4b7b-a019-6cd7-029cb28b34bd_default_universal.mp4"
+      },
+      {
+        "uuid": "57dbc793-40a4-17e8-db04-95b739411e52",
+        "displayName": "Protocol 781-A Phantom Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/121dc0db-44e4-f9b4-5be5-68a9669e973c_default_universal.mp4"
+      },
+      {
+        "uuid": "a117218e-4f0e-0cca-7758-7ea30b08ac05",
+        "displayName": "Protocol 781-A Phantom Level 5\r\nLocalized voice-over may differ in your region",
+        "levelItem": "EEquippableSkinLevelItem::Voiceover",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/607336dc-48ba-cc56-a012-f3b41b393db0_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "e37229ed-4ddf-5e7e-e744-8fba60fa2c37",
+    "displayName": "Kuronami no Yaiba",
+    "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/e37229ed-4ddf-5e7e-e744-8fba60fa2c37/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "31a9b6a5-4c0b-f7bc-f2a6-a8b5eeffb898",
+        "displayName": "Kuronami no Yaiba",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/31a9b6a5-4c0b-f7bc-f2a6-a8b5eeffb898/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/31a9b6a5-4c0b-f7bc-f2a6-a8b5eeffb898/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/31a9b6a5-4c0b-f7bc-f2a6-a8b5eeffb898/swatch.png"
+      },
+      {
+        "uuid": "b1cf6bd9-4622-61d0-7f14-009b1c56c558",
+        "displayName": "Kuronami no Yaiba Level 2\n(Variant 1 Purple)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b1cf6bd9-4622-61d0-7f14-009b1c56c558/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/b1cf6bd9-4622-61d0-7f14-009b1c56c558/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/b1cf6bd9-4622-61d0-7f14-009b1c56c558/swatch.png"
+      },
+      {
+        "uuid": "c27dd9a0-4598-f48f-700e-8db0b1658ca9",
+        "displayName": "Kuronami no Yaiba Level 2\n(Variant 2 White)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c27dd9a0-4598-f48f-700e-8db0b1658ca9/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/c27dd9a0-4598-f48f-700e-8db0b1658ca9/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/c27dd9a0-4598-f48f-700e-8db0b1658ca9/swatch.png"
+      },
+      {
+        "uuid": "5571158e-4c2f-fabc-ab83-fb9ae34896b6",
+        "displayName": "Kuronami no Yaiba Level 2\n(Variant 3 Black)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/5571158e-4c2f-fabc-ab83-fb9ae34896b6/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/5571158e-4c2f-fabc-ab83-fb9ae34896b6/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/5571158e-4c2f-fabc-ab83-fb9ae34896b6/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "99b0edce-48db-b898-1d6f-0fa89795226d",
+        "displayName": "Kuronami no Yaiba",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/99b0edce-48db-b898-1d6f-0fa89795226d/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/9c9dc244-476d-9751-17c7-388602f718d9_default_universal.mp4"
+      },
+      {
+        "uuid": "ba31c58b-45bc-f058-0231-5c90b56dad51",
+        "displayName": "Kuronami no Yaiba Level 2\r\nDuring inspect animation, inspect again to spin faster",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/ba31c58b-45bc-f058-0231-5c90b56dad51/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/f478ae7c-427d-bf16-9b2f-268b209abefe_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "b73d7b16-4652-bc5b-5c4c-068aabb19d0a",
+    "displayName": "Reaver Karambit",
+    "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/b73d7b16-4652-bc5b-5c4c-068aabb19d0a/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "61eb0d02-4dfe-4413-6e29-4d9f9500e6a5",
+        "displayName": "Reaver Karambit",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/61eb0d02-4dfe-4413-6e29-4d9f9500e6a5/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/61eb0d02-4dfe-4413-6e29-4d9f9500e6a5/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/61eb0d02-4dfe-4413-6e29-4d9f9500e6a5/swatch.png"
+      },
+      {
+        "uuid": "9c55fcb9-4710-48fd-642d-fd90c6c3b895",
+        "displayName": "Reaver Karambit Level 2\r\n(Variant 1 Red)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9c55fcb9-4710-48fd-642d-fd90c6c3b895/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/9c55fcb9-4710-48fd-642d-fd90c6c3b895/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/9c55fcb9-4710-48fd-642d-fd90c6c3b895/swatch.png"
+      },
+      {
+        "uuid": "517f5413-4859-ab98-fec8-4ebd39a15121",
+        "displayName": "Reaver Karambit Level 2\r\n(Variant 2 Black)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/517f5413-4859-ab98-fec8-4ebd39a15121/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/517f5413-4859-ab98-fec8-4ebd39a15121/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/517f5413-4859-ab98-fec8-4ebd39a15121/swatch.png"
+      },
+      {
+        "uuid": "cf9fc0dc-48d9-34a6-95fd-cea860d2df5e",
+        "displayName": "Reaver Karambit Level 2\r\n(Variant 3 White)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/cf9fc0dc-48d9-34a6-95fd-cea860d2df5e/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/cf9fc0dc-48d9-34a6-95fd-cea860d2df5e/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/cf9fc0dc-48d9-34a6-95fd-cea860d2df5e/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "5ac106cd-45ef-a26f-2058-f382f20c64db",
+        "displayName": "Reaver Karambit",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/5ac106cd-45ef-a26f-2058-f382f20c64db/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/9e41661a-4d9c-8f02-0ce2-33b5badc2a19_default_universal.mp4"
+      },
+      {
+        "uuid": "84d08ce6-468c-b95b-9bbb-408dcdcee76f",
+        "displayName": "Reaver Karambit Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/f4ed33a2-49c2-1162-9553-20a005e1c55c_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "e100dff1-4cf5-54ec-aa65-6fadbc22973b",
+    "displayName": "Prime Axe",
+    "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/e100dff1-4cf5-54ec-aa65-6fadbc22973b/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "d2e296d9-448e-c58f-2229-14a481906686",
+        "displayName": "Prime Axe",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d2e296d9-448e-c58f-2229-14a481906686/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/d2e296d9-448e-c58f-2229-14a481906686/fullrender.png",
+        "swatch": null
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "249b0e46-4a11-f045-51bb-649151cd802a",
+        "displayName": "Prime Axe",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/249b0e46-4a11-f045-51bb-649151cd802a/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/aefe0720-5997-4a4e-8b6c-56a0d00573eb_default_universal.mp4"
+      },
+      {
+        "uuid": "df1ace24-4acb-e615-24eb-6e95b7e44dc5",
+        "displayName": "Prime Axe Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/df1ace24-4acb-e615-24eb-6e95b7e44dc5/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/316137d8-1ce8-4f00-9ee5-97d3df6561de_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "2e77ac95-4681-3d87-bbdc-93a50ff6b1f6",
+    "displayName": "Sovereign Sword",
+    "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/2e77ac95-4681-3d87-bbdc-93a50ff6b1f6/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "3391be35-4eab-936c-f26d-ec810f4454c8",
+        "displayName": "Sovereign Sword",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3391be35-4eab-936c-f26d-ec810f4454c8/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/3391be35-4eab-936c-f26d-ec810f4454c8/fullrender.png",
+        "swatch": null
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "90fe45d6-41ea-1c49-8fb9-46b0e98c0077",
+        "displayName": "Sovereign Sword",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/90fe45d6-41ea-1c49-8fb9-46b0e98c0077/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/4a6a5fbb-6f44-4758-bb9a-51e0b0437ad0_default_universal.mp4"
+      },
+      {
+        "uuid": "5e7f5d27-46ca-abd5-72d8-ecbb413ec217",
+        "displayName": "Sovereign Sword Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/5e7f5d27-46ca-abd5-72d8-ecbb413ec217/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/bcf762a1-3d1b-4367-9d11-c5f7eed814f6_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "206fc3fe-45a0-6c19-c367-229b98b6a2aa",
+    "displayName": "Oni Claw",
+    "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/206fc3fe-45a0-6c19-c367-229b98b6a2aa/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "94bf2d2a-4f1b-b68e-0de1-f2ac152d1127",
+        "displayName": "Oni Claw",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/94bf2d2a-4f1b-b68e-0de1-f2ac152d1127/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/94bf2d2a-4f1b-b68e-0de1-f2ac152d1127/fullrender.png",
+        "swatch": null
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "e34039b6-441d-3e17-2773-bdaf5c3d2faa",
+        "displayName": "Oni Claw",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/e34039b6-441d-3e17-2773-bdaf5c3d2faa/displayicon.png",
+        "streamedVideo": null
+      },
+      {
+        "uuid": "444af7a1-46d4-6139-a4b4-66b3112bd37b",
+        "displayName": "Oni Claw Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/6ce47b02-4011-94e3-8d27-dea0fad98a61_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "c5482640-4652-6948-29c6-769e8198db27",
+    "displayName": "Xenohunter Knife",
+    "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/c5482640-4652-6948-29c6-769e8198db27/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "37714c64-482b-d68d-f704-139156a2577c",
+        "displayName": "Xenohunter Knife",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/37714c64-482b-d68d-f704-139156a2577c/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/37714c64-482b-d68d-f704-139156a2577c/fullrender.png",
+        "swatch": null
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "8e9f610a-41ea-ff48-d102-c7a0e5614c84",
+        "displayName": "Xenohunter Knife",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/8e9f610a-41ea-ff48-d102-c7a0e5614c84/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/80106bdf-4ebe-4358-0b94-319d737a4165_default_universal.mp4"
+      },
+      {
+        "uuid": "ba8b620a-4a51-8ed6-d1a7-cb9a4b3d99bd",
+        "displayName": "Xenohunter Knife Level 2",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/ce5aea24-4429-854d-3082-41972e95d9ff_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "1cd09fbd-43cb-a5f6-90fa-08994342d747",
+    "displayName": "Ignite Fan",
+    "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/1cd09fbd-43cb-a5f6-90fa-08994342d747/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "dbf9de3d-4cb7-4dc3-1ed1-94bddd1d07f0",
+        "displayName": "Ignite Fan",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/dbf9de3d-4cb7-4dc3-1ed1-94bddd1d07f0/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/dbf9de3d-4cb7-4dc3-1ed1-94bddd1d07f0/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/dbf9de3d-4cb7-4dc3-1ed1-94bddd1d07f0/swatch.png"
+      },
+      {
+        "uuid": "4bba1de9-4586-8694-3d9c-01b4dcb0e390",
+        "displayName": "Ignite Fan Level 2\r\n(Variant 1 Purple)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/4bba1de9-4586-8694-3d9c-01b4dcb0e390/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/4bba1de9-4586-8694-3d9c-01b4dcb0e390/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/4bba1de9-4586-8694-3d9c-01b4dcb0e390/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "445de3d7-4833-5bf7-ef75-aeb4a0212229",
+        "displayName": "Ignite Fan",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/445de3d7-4833-5bf7-ef75-aeb4a0212229/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/4ec1b47a-472e-3744-9e10-bdb6bb678947_default_universal.mp4"
+      },
+      {
+        "uuid": "dd64265f-4d93-7778-af37-74bb45df1774",
+        "displayName": "Ignite Fan Level 2",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/dcdd4af5-4ea5-cdff-ee6b-fd9ba552923e_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "9fb366b6-46df-a722-0cf2-9c9b85936f17",
+    "displayName": "RGX 11z Pro Blade",
+    "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/9fb366b6-46df-a722-0cf2-9c9b85936f17/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "8ceded3e-4365-9aa6-eb7e-bda2cd553d6f",
+        "displayName": "RGX 11z Pro Blade",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8ceded3e-4365-9aa6-eb7e-bda2cd553d6f/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/8ceded3e-4365-9aa6-eb7e-bda2cd553d6f/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/8ceded3e-4365-9aa6-eb7e-bda2cd553d6f/swatch.png"
+      },
+      {
+        "uuid": "bcd0308b-4f12-e460-e34c-dba6b25386df",
+        "displayName": "RGX 11z Pro Blade Level 2\r\n(Variant 1 Red)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/bcd0308b-4f12-e460-e34c-dba6b25386df/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/bcd0308b-4f12-e460-e34c-dba6b25386df/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/bcd0308b-4f12-e460-e34c-dba6b25386df/swatch.png"
+      },
+      {
+        "uuid": "5a902162-4810-106a-6fc6-87a0318d73d2",
+        "displayName": "RGX 11z Pro Blade Level 2\r\n(Variant 2 Blue)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/5a902162-4810-106a-6fc6-87a0318d73d2/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/5a902162-4810-106a-6fc6-87a0318d73d2/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/5a902162-4810-106a-6fc6-87a0318d73d2/swatch.png"
+      },
+      {
+        "uuid": "05029e79-4c74-85c3-30ee-78ab3179b600",
+        "displayName": "RGX 11z Pro Blade Level 2\r\n(Variant 3 Yellow)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/05029e79-4c74-85c3-30ee-78ab3179b600/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/05029e79-4c74-85c3-30ee-78ab3179b600/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/05029e79-4c74-85c3-30ee-78ab3179b600/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "a1762ed3-45bf-2dd5-776f-a18a33171e6f",
+        "displayName": "RGX 11z Pro Blade",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/a1762ed3-45bf-2dd5-776f-a18a33171e6f/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/ff91070b-4b02-e569-2fa3-41b3eb8cdfde_default_universal.mp4"
+      },
+      {
+        "uuid": "d67af30b-4b2a-b1e6-3ac2-6aba74b885d4",
+        "displayName": "RGX 11z Pro Blade Level 2",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/d67af30b-4b2a-b1e6-3ac2-6aba74b885d4/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/99d27d45-4e1f-75ba-df79-c18f1b610628_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "9a98f7dd-426c-603e-0569-e9b317c25ee4",
+    "displayName": "VCT LOCK//IN Misericórdia",
+    "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/9a98f7dd-426c-603e-0569-e9b317c25ee4/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "465c23f5-457b-e7ea-a59a-23993c087581",
+        "displayName": "VCT LOCK//IN Misericórdia",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/465c23f5-457b-e7ea-a59a-23993c087581/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/465c23f5-457b-e7ea-a59a-23993c087581/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/465c23f5-457b-e7ea-a59a-23993c087581/swatch.png"
+      },
+      {
+        "uuid": "b997c0f0-48d9-c9e8-3fc1-cb8dfa6d0099",
+        "displayName": "VCT LOCK//IN Misericórdia Level 3\r\n(Variant 1 Pacific)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b997c0f0-48d9-c9e8-3fc1-cb8dfa6d0099/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/b997c0f0-48d9-c9e8-3fc1-cb8dfa6d0099/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/b997c0f0-48d9-c9e8-3fc1-cb8dfa6d0099/swatch.png"
+      },
+      {
+        "uuid": "95e70f20-49af-d039-a466-4aae151cb993",
+        "displayName": "VCT LOCK//IN Misericórdia Level 3\r\n(Variant 2 Americas)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/95e70f20-49af-d039-a466-4aae151cb993/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/95e70f20-49af-d039-a466-4aae151cb993/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/95e70f20-49af-d039-a466-4aae151cb993/swatch.png"
+      },
+      {
+        "uuid": "c7c15414-48b9-d98a-41a4-fd894cae5200",
+        "displayName": "VCT LOCK//IN Misericórdia Level 3\r\n(Variant 3 EMEA)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c7c15414-48b9-d98a-41a4-fd894cae5200/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/c7c15414-48b9-d98a-41a4-fd894cae5200/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/c7c15414-48b9-d98a-41a4-fd894cae5200/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "e98461ab-4e29-3bbe-513b-0b82f3013050",
+        "displayName": "VCT LOCK//IN Misericórdia",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/e98461ab-4e29-3bbe-513b-0b82f3013050/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/07adb54f-4b0e-5039-e1b9-819b8f489ade_default_universal.mp4"
+      },
+      {
+        "uuid": "210e40cd-4537-a726-b181-86a61842ebb4",
+        "displayName": "VCT LOCK//IN Misericórdia Level 2",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/cf7566a9-4df7-ca7b-116b-0b801ce0698a_default_universal.mp4"
+      },
+      {
+        "uuid": "ccd02c8f-4790-0e6a-d304-dbab5f211f27",
+        "displayName": "VCT LOCK//IN Misericórdia Level 3\r\nAura is active only when player has the most kills in the game",
+        "levelItem": "EEquippableSkinLevelItem::TopFrag",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/2cbac4da-4026-3113-41a7-f1b006eb4066_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "d722313d-43cb-b38d-7841-75880a3ed2cb",
+    "displayName": "Elderflame Operator",
+    "contentTierUuid": "411e4a55-4e59-7757-41f0-86a53f101bb5",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/d722313d-43cb-b38d-7841-75880a3ed2cb/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "61583c81-4332-ff81-2ede-2a8248863c80",
+        "displayName": "Elderflame Operator",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/61583c81-4332-ff81-2ede-2a8248863c80/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/61583c81-4332-ff81-2ede-2a8248863c80/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/61583c81-4332-ff81-2ede-2a8248863c80/swatch.png"
+      },
+      {
+        "uuid": "a8b125e5-4e33-953d-d02c-37ad9e284b6a",
+        "displayName": "Elderflame Operator Level 4\r\n(Variant 1 Red)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a8b125e5-4e33-953d-d02c-37ad9e284b6a/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/a8b125e5-4e33-953d-d02c-37ad9e284b6a/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/a8b125e5-4e33-953d-d02c-37ad9e284b6a/swatch.png"
+      },
+      {
+        "uuid": "37cca29b-4468-a01e-e31b-8f8978a81eef",
+        "displayName": "Elderflame Operator Level 4\r\n(Variant 2 Blue)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/37cca29b-4468-a01e-e31b-8f8978a81eef/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/37cca29b-4468-a01e-e31b-8f8978a81eef/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/37cca29b-4468-a01e-e31b-8f8978a81eef/swatch.png"
+      },
+      {
+        "uuid": "296dcddb-4fbf-8834-bc01-44acac66dc60",
+        "displayName": "Elderflame Operator Level 4\r\n(Variant 3 Dark)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/296dcddb-4fbf-8834-bc01-44acac66dc60/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/296dcddb-4fbf-8834-bc01-44acac66dc60/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/296dcddb-4fbf-8834-bc01-44acac66dc60/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "5c273d0e-47fa-bb8c-d914-728de95da30e",
+        "displayName": "Elderflame Operator",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/5c273d0e-47fa-bb8c-d914-728de95da30e/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/0e1f79a5-81ae-4d21-b3c5-740605b7e054_default_universal.mp4"
+      },
+      {
+        "uuid": "ea7094b7-4f29-2570-0003-14a9b872fc19",
+        "displayName": "Elderflame Operator Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/3b406376-1546-4295-a6d9-77a9a286d724_default_universal.mp4"
+      },
+      {
+        "uuid": "02567ece-47a2-a68b-7853-668f45ab0ab0",
+        "displayName": "Elderflame Operator Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/f5a28688-6a1c-41cb-88b5-a6f8990bf4da_default_universal.mp4"
+      },
+      {
+        "uuid": "41ad7696-47bf-cd88-115b-9cb17ad77919",
+        "displayName": "Elderflame Operator Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/9662e509-fba3-409d-b4c4-87b0c7279792_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "6db556e4-4255-6c2c-6a80-8a9dfac96aa9",
+    "displayName": "Araxys Operator",
+    "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/6db556e4-4255-6c2c-6a80-8a9dfac96aa9/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "9201a3fa-4954-46c0-a61a-ac845a6a34c4",
+        "displayName": "Araxys Operator",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9201a3fa-4954-46c0-a61a-ac845a6a34c4/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/9201a3fa-4954-46c0-a61a-ac845a6a34c4/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/9201a3fa-4954-46c0-a61a-ac845a6a34c4/swatch.png"
+      },
+      {
+        "uuid": "bdbc039a-4891-cd91-6713-74abe8470cbe",
+        "displayName": "Araxys Operator Level 4\n(Variant 1 Purple)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/bdbc039a-4891-cd91-6713-74abe8470cbe/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/bdbc039a-4891-cd91-6713-74abe8470cbe/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/bdbc039a-4891-cd91-6713-74abe8470cbe/swatch.png"
+      },
+      {
+        "uuid": "9686c85c-4b6c-3b72-6dc6-058fd39f0c89",
+        "displayName": "Araxys Operator Level 4\n(Variant 2 Black)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9686c85c-4b6c-3b72-6dc6-058fd39f0c89/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/9686c85c-4b6c-3b72-6dc6-058fd39f0c89/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/9686c85c-4b6c-3b72-6dc6-058fd39f0c89/swatch.png"
+      },
+      {
+        "uuid": "58f56085-4f00-7b1d-aaa0-f49395c1254d",
+        "displayName": "Araxys Operator Level 4\n(Variant 3 Silver)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/58f56085-4f00-7b1d-aaa0-f49395c1254d/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/58f56085-4f00-7b1d-aaa0-f49395c1254d/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/58f56085-4f00-7b1d-aaa0-f49395c1254d/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "bf2da3c9-43aa-5a37-9958-2a805298951f",
+        "displayName": "Araxys Operator",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/bf2da3c9-43aa-5a37-9958-2a805298951f/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/d381c09d-4fc3-f71d-a750-df9468b53bfd_default_universal.mp4"
+      },
+      {
+        "uuid": "0dca1fcb-4484-5e4d-f15c-a3985b2bec33",
+        "displayName": "Araxys Operator Level 2",
+        "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/3f010634-43f9-431d-650d-35bddeb68118_default_universal.mp4"
+      },
+      {
+        "uuid": "4e0b18ce-4658-bdfd-7097-17bffb168886",
+        "displayName": "Araxys Operator Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/290f46a8-4feb-c527-2e8c-07bff9466c0e_default_universal.mp4"
+      },
+      {
+        "uuid": "34ccb66a-489f-f120-b9ef-739f4af36549",
+        "displayName": "Araxys Operator Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/50bce9d8-4cfc-b554-9cfb-21bf4cd26603_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "bbf8ffb9-49c0-75c0-cc7d-8f8f03a4bd36",
+    "displayName": "Ion Operator",
+    "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/bbf8ffb9-49c0-75c0-cc7d-8f8f03a4bd36/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "54ea8ba8-4bcb-eb63-70d2-4da7520fade2",
+        "displayName": "Ion Operator",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/54ea8ba8-4bcb-eb63-70d2-4da7520fade2/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/54ea8ba8-4bcb-eb63-70d2-4da7520fade2/fullrender.png",
+        "swatch": null
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "24c73c29-443c-2440-d6db-838086f2451a",
+        "displayName": "Ion Operator",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/24c73c29-443c-2440-d6db-838086f2451a/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/e98cb6d3-4acc-71a7-f67c-8bb85292f2a2_default_universal.mp4"
+      },
+      {
+        "uuid": "8a0328e1-4067-ddaa-fb06-e6ab0c0c9a54",
+        "displayName": "Ion Operator Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/5c1f0a2d-42ff-b28f-806d-2d80cf1ad908_default_universal.mp4"
+      },
+      {
+        "uuid": "65888fca-4a1d-da64-8735-8495d86338ca",
+        "displayName": "Ion Operator Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/6cafdacd-4c39-5dda-3f71-b2b97f3e29d7_default_universal.mp4"
+      },
+      {
+        "uuid": "4ffc2ae6-4501-2c43-a105-f4977a0a207e",
+        "displayName": "Ion Operator Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/cdbc1f83-4eef-12e4-4e93-24bc25a03627_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "17831113-4ff0-a6c9-0b20-6f9c077d74a2",
+    "displayName": "Origin Operator",
+    "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/17831113-4ff0-a6c9-0b20-6f9c077d74a2/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "e9a1f1d7-4651-c94c-4e9f-94a4bb93232b",
+        "displayName": "Origin Operator",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e9a1f1d7-4651-c94c-4e9f-94a4bb93232b/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/e9a1f1d7-4651-c94c-4e9f-94a4bb93232b/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/e9a1f1d7-4651-c94c-4e9f-94a4bb93232b/swatch.png"
+      },
+      {
+        "uuid": "3d72bc4e-4af0-369b-9f67-3181e7940b9a",
+        "displayName": "Origin Operator Level 4\r\n(Variant 1 Green)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3d72bc4e-4af0-369b-9f67-3181e7940b9a/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/3d72bc4e-4af0-369b-9f67-3181e7940b9a/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/3d72bc4e-4af0-369b-9f67-3181e7940b9a/swatch.png"
+      },
+      {
+        "uuid": "db9ccc65-45c1-cc8d-6b2a-97a3c9ec6652",
+        "displayName": "Origin Operator Level 4\n(Variant 2 Red)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/db9ccc65-45c1-cc8d-6b2a-97a3c9ec6652/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/db9ccc65-45c1-cc8d-6b2a-97a3c9ec6652/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/db9ccc65-45c1-cc8d-6b2a-97a3c9ec6652/swatch.png"
+      },
+      {
+        "uuid": "d41d5078-4b51-50b5-0d53-6cb96d548d74",
+        "displayName": "Origin Operator Level 4\n(Variant 3 White)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d41d5078-4b51-50b5-0d53-6cb96d548d74/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/d41d5078-4b51-50b5-0d53-6cb96d548d74/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/d41d5078-4b51-50b5-0d53-6cb96d548d74/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "4d19c241-4350-6658-f5a6-5c99ca8e5e99",
+        "displayName": "Origin Operator",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/4d19c241-4350-6658-f5a6-5c99ca8e5e99/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/94e2ba49-48d1-a939-1baa-9b922ab1d131_default_universal.mp4"
+      },
+      {
+        "uuid": "b225c7d3-4ab2-e703-1e5a-f2885730e81c",
+        "displayName": "Origin Operator Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/507579ab-4d46-8960-63fc-4d82e67c3d33_default_universal.mp4"
+      },
+      {
+        "uuid": "a2fff901-4bf8-3029-ab04-da96f8b9a73e",
+        "displayName": "Origin Operator Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/5d977546-4c14-5d0d-9326-e882a8ebf6d6_default_universal.mp4"
+      },
+      {
+        "uuid": "99bf69d9-4451-cfb4-456f-c3b5cc4fcf5e",
+        "displayName": "Origin Operator Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/27894ca0-4bae-9bb9-a0e1-1d9befd86eb0_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "aecab890-43b7-d719-06bc-9295e3d116dc",
+    "displayName": "Reaver Operator",
+    "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/aecab890-43b7-d719-06bc-9295e3d116dc/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "27865910-4dd4-845f-8671-92988cc1c996",
+        "displayName": "Reaver Operator",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/27865910-4dd4-845f-8671-92988cc1c996/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/27865910-4dd4-845f-8671-92988cc1c996/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/27865910-4dd4-845f-8671-92988cc1c996/swatch.png"
+      },
+      {
+        "uuid": "0b29f645-404f-f9d2-2165-c6bf5b16572f",
+        "displayName": "Reaver Operator Level 4\r\n(Variant 1 Red)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0b29f645-404f-f9d2-2165-c6bf5b16572f/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/0b29f645-404f-f9d2-2165-c6bf5b16572f/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/0b29f645-404f-f9d2-2165-c6bf5b16572f/swatch.png"
+      },
+      {
+        "uuid": "319d9f49-46a9-be17-9b08-cfb1a766fa37",
+        "displayName": "Reaver Operator Level 4\r\n(Variant 2 Black)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/319d9f49-46a9-be17-9b08-cfb1a766fa37/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/319d9f49-46a9-be17-9b08-cfb1a766fa37/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/319d9f49-46a9-be17-9b08-cfb1a766fa37/swatch.png"
+      },
+      {
+        "uuid": "4244d37b-4129-175d-a2dc-98a8e1de89c6",
+        "displayName": "Reaver Operator Level 4\r\n(Variant 3 White)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/4244d37b-4129-175d-a2dc-98a8e1de89c6/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/4244d37b-4129-175d-a2dc-98a8e1de89c6/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/4244d37b-4129-175d-a2dc-98a8e1de89c6/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "7bfab387-4e97-d815-4488-c491e3a5520c",
+        "displayName": "Reaver Operator",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/7bfab387-4e97-d815-4488-c491e3a5520c/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/ea996485-496b-c83f-ac73-71b9144326cc_default_universal.mp4"
+      },
+      {
+        "uuid": "bf02e33f-4d16-e361-d1ed-1eb58de846c3",
+        "displayName": "Reaver Operator Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/3c3c69e2-4bb1-7188-1002-f988ab0db603_default_universal.mp4"
+      },
+      {
+        "uuid": "59409cb0-4583-20a4-c905-4db393712af7",
+        "displayName": "Reaver Operator Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/a66f510e-4c04-b495-67cf-a8bde5d8fb4a_default_universal.mp4"
+      },
+      {
+        "uuid": "21305a72-4374-67c7-c25b-e0bb8dc2da52",
+        "displayName": "Reaver Operator Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/245283ef-493b-4f79-a9fb-30a3075fffe0_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "b73f455a-4d77-44e7-fd90-1db9db82a8f6",
+    "displayName": "Neo Frontier Sheriff",
+    "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/b73f455a-4d77-44e7-fd90-1db9db82a8f6/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "6c75e3ae-4500-a127-b0ab-349cd9583539",
+        "displayName": "Neo Frontier Sheriff",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/6c75e3ae-4500-a127-b0ab-349cd9583539/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/6c75e3ae-4500-a127-b0ab-349cd9583539/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/6c75e3ae-4500-a127-b0ab-349cd9583539/swatch.png"
+      },
+      {
+        "uuid": "2f59b5ff-4a79-ffd3-92c0-b0864d5294e0",
+        "displayName": "Neo Frontier Sheriff Level 4\n(Variant 1 Gold)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/2f59b5ff-4a79-ffd3-92c0-b0864d5294e0/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/2f59b5ff-4a79-ffd3-92c0-b0864d5294e0/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/2f59b5ff-4a79-ffd3-92c0-b0864d5294e0/swatch.png"
+      },
+      {
+        "uuid": "f253157d-46b8-10e4-f879-b49d8843a7c1",
+        "displayName": "Neo Frontier Sheriff Level 4\n(Variant 2 Silver)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f253157d-46b8-10e4-f879-b49d8843a7c1/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/f253157d-46b8-10e4-f879-b49d8843a7c1/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/f253157d-46b8-10e4-f879-b49d8843a7c1/swatch.png"
+      },
+      {
+        "uuid": "70c33c1b-4b2e-8033-d330-96b95783fdfd",
+        "displayName": "Neo Frontier Sheriff Level 4\n(Variant 3 Copper)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/70c33c1b-4b2e-8033-d330-96b95783fdfd/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/70c33c1b-4b2e-8033-d330-96b95783fdfd/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/70c33c1b-4b2e-8033-d330-96b95783fdfd/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "d9f04b7a-4ca6-1083-3af4-e3810bf15440",
+        "displayName": "Neo Frontier Sheriff",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/d9f04b7a-4ca6-1083-3af4-e3810bf15440/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/8e253277-4fd0-c465-87e7-02b5980a2dcc_default_universal.mp4"
+      },
+      {
+        "uuid": "91e4f917-4691-af54-03d2-df932e61b233",
+        "displayName": "Neo Frontier Sheriff Level 2",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/58616669-4bc6-f1dc-79a2-6c9b308e1509_default_universal.mp4"
+      },
+      {
+        "uuid": "f28b1e1a-43d7-24d1-6859-1da020f45ba0",
+        "displayName": "Neo Frontier Sheriff Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Transformation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/63032b84-46dd-100d-f817-ee96fe082669_default_universal.mp4"
+      },
+      {
+        "uuid": "4eb685b3-4015-826b-8111-6f9ef16eb5d6",
+        "displayName": "Neo Frontier Sheriff Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/c0a23b7c-419e-d1eb-26fc-ce8c926bddb6_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "83778c03-45a3-67a2-3c89-6b8598327d58",
+    "displayName": "Ion Sheriff",
+    "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/83778c03-45a3-67a2-3c89-6b8598327d58/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "d3f81911-44e7-f0c1-cc6c-34bda3bff6d3",
+        "displayName": "Ion Sheriff",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d3f81911-44e7-f0c1-cc6c-34bda3bff6d3/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/d3f81911-44e7-f0c1-cc6c-34bda3bff6d3/fullrender.png",
+        "swatch": null
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "2b555f97-46bb-5949-3531-979f5bc817f0",
+        "displayName": "Ion Sheriff",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/2b555f97-46bb-5949-3531-979f5bc817f0/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/aa2185f1-4677-31ed-43e4-b6bec932c597_default_universal.mp4"
+      },
+      {
+        "uuid": "a60421b9-4b86-ccd3-ca08-808ef4cf112b",
+        "displayName": "Ion Sheriff Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/f8c2e883-453f-99b2-06b6-5ea30b33b7ac_default_universal.mp4"
+      },
+      {
+        "uuid": "1ad8e7b3-4547-0890-aa8d-d79be028e48f",
+        "displayName": "Ion Sheriff Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/ad9f078e-4088-4e60-71a7-4d8d38027a19_default_universal.mp4"
+      },
+      {
+        "uuid": "becd58d6-4da0-db56-a748-35923d2750e1",
+        "displayName": "Ion Sheriff Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/21d51f61-43d2-250e-16e8-ab810c2a6907_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "6460edbf-458d-bf61-7519-519305ba5da2",
+    "displayName": "Magepunk Sheriff",
+    "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/6460edbf-458d-bf61-7519-519305ba5da2/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "2f82f035-47c9-e040-fb43-77a67ee408d9",
+        "displayName": "Magepunk Sheriff",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/2f82f035-47c9-e040-fb43-77a67ee408d9/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/2f82f035-47c9-e040-fb43-77a67ee408d9/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/2f82f035-47c9-e040-fb43-77a67ee408d9/swatch.png"
+      },
+      {
+        "uuid": "e0411338-4a87-b39e-6815-8d8770fc852e",
+        "displayName": "Magepunk Sheriff Level 4\n(Variant 1 Green)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e0411338-4a87-b39e-6815-8d8770fc852e/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/e0411338-4a87-b39e-6815-8d8770fc852e/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/e0411338-4a87-b39e-6815-8d8770fc852e/swatch.png"
+      },
+      {
+        "uuid": "bf0cecb1-4143-3491-790c-33be07e361ba",
+        "displayName": "Magepunk Sheriff Level 4\n(Variant 2 Pink)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/bf0cecb1-4143-3491-790c-33be07e361ba/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/bf0cecb1-4143-3491-790c-33be07e361ba/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/bf0cecb1-4143-3491-790c-33be07e361ba/swatch.png"
+      },
+      {
+        "uuid": "f37e5fd4-467f-aa61-5355-87bd57f499cd",
+        "displayName": "Magepunk Sheriff Level 4\n(Variant 3 Orange)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f37e5fd4-467f-aa61-5355-87bd57f499cd/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/f37e5fd4-467f-aa61-5355-87bd57f499cd/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/f37e5fd4-467f-aa61-5355-87bd57f499cd/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "59733cf9-490b-e25b-2c6f-eca947628079",
+        "displayName": "Magepunk Sheriff",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/59733cf9-490b-e25b-2c6f-eca947628079/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/09902b8c-439e-7a7b-2118-568d6b7d90c6_default_universal.mp4"
+      },
+      {
+        "uuid": "c1e1dc78-44e1-1d94-171e-d7933d2828c7",
+        "displayName": "Magepunk Sheriff Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/2e894ef4-4387-f950-268a-8dba5af6e7b0_default_universal.mp4"
+      },
+      {
+        "uuid": "43f79fbc-4a00-f0fc-0813-2cb8224ee6d3",
+        "displayName": "Magepunk Sheriff Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/2c8f74a4-4a52-6442-92b5-7781683f0810_default_universal.mp4"
+      },
+      {
+        "uuid": "892725e3-4c2a-0333-e43a-1da5896cd6a4",
+        "displayName": "Magepunk Sheriff Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/96b4b4db-4dad-9904-474a-179972045e1c_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "e1fdd246-4a6c-af26-f0a0-65a48f2586da",
+    "displayName": "ChronoVoid Sheriff",
+    "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/e1fdd246-4a6c-af26-f0a0-65a48f2586da/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "30d62003-49f2-9ef8-8393-6aa94893c18d",
+        "displayName": "ChronoVoid Sheriff",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/30d62003-49f2-9ef8-8393-6aa94893c18d/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/30d62003-49f2-9ef8-8393-6aa94893c18d/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/30d62003-49f2-9ef8-8393-6aa94893c18d/swatch.png"
+      },
+      {
+        "uuid": "510c3370-4218-985e-77a6-f7849207aeff",
+        "displayName": "ChronoVoid Sheriff Level 4\n(Variant 1 Purple)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/510c3370-4218-985e-77a6-f7849207aeff/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/510c3370-4218-985e-77a6-f7849207aeff/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/510c3370-4218-985e-77a6-f7849207aeff/swatch.png"
+      },
+      {
+        "uuid": "f916f30e-45dd-7c0d-e218-faa924a41746",
+        "displayName": "ChronoVoid Sheriff Level 4\n(Variant 2 Red)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f916f30e-45dd-7c0d-e218-faa924a41746/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/f916f30e-45dd-7c0d-e218-faa924a41746/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/f916f30e-45dd-7c0d-e218-faa924a41746/swatch.png"
+      },
+      {
+        "uuid": "641c542b-40f5-70dc-677f-c8a0f3603d2f",
+        "displayName": "ChronoVoid Sheriff Level 4\n(Variant 3 Black)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/641c542b-40f5-70dc-677f-c8a0f3603d2f/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/641c542b-40f5-70dc-677f-c8a0f3603d2f/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/641c542b-40f5-70dc-677f-c8a0f3603d2f/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "ade427fc-4b24-f290-c91a-b1904b787f42",
+        "displayName": "ChronoVoid Sheriff",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/ade427fc-4b24-f290-c91a-b1904b787f42/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/a58186c3-4a96-c206-ca47-e48dc1070482_default_universal.mp4"
+      },
+      {
+        "uuid": "5ea7ae90-4b5c-bc7d-e1b4-25a1dae54e6d",
+        "displayName": "ChronoVoid Sheriff Level 2",
+        "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/368de113-4943-e989-a609-f88a9a6bb9bd_default_universal.mp4"
+      },
+      {
+        "uuid": "dc7fb3f6-476b-fac7-2e2d-f4b1d1ed062d",
+        "displayName": "ChronoVoid Sheriff Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/37a16e30-47fa-299d-4120-1ea212220378_default_universal.mp4"
+      },
+      {
+        "uuid": "1e60239c-4322-aec5-8e82-f39cfb196f88",
+        "displayName": "ChronoVoid Sheriff Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/4452156e-4c43-ecbe-47ab-199c06b99107_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "bfd9e773-4376-1f6a-98f2-dc93f0c0607c",
+    "displayName": "Singularity Sheriff",
+    "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/bfd9e773-4376-1f6a-98f2-dc93f0c0607c/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "00831706-4e60-d5f9-b600-e38be89828d0",
+        "displayName": "Singularity Sheriff",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/00831706-4e60-d5f9-b600-e38be89828d0/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/00831706-4e60-d5f9-b600-e38be89828d0/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/00831706-4e60-d5f9-b600-e38be89828d0/swatch.png"
+      },
+      {
+        "uuid": "78c77ae1-4987-223d-720e-c596cd1f3a6c",
+        "displayName": "Singularity Sheriff Level 4\r\n(Variant 1 Blue)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/78c77ae1-4987-223d-720e-c596cd1f3a6c/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/78c77ae1-4987-223d-720e-c596cd1f3a6c/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/78c77ae1-4987-223d-720e-c596cd1f3a6c/swatch.png"
+      },
+      {
+        "uuid": "47cd743f-4fab-88b9-5341-668bc62c0983",
+        "displayName": "Singularity Sheriff Level 4\r\n(Variant 2 Red)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/47cd743f-4fab-88b9-5341-668bc62c0983/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/47cd743f-4fab-88b9-5341-668bc62c0983/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/47cd743f-4fab-88b9-5341-668bc62c0983/swatch.png"
+      },
+      {
+        "uuid": "79da7132-4804-47fc-3249-ab9dec5752a9",
+        "displayName": "Singularity Sheriff Level 4\r\n(Variant 3 Purple)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/79da7132-4804-47fc-3249-ab9dec5752a9/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/79da7132-4804-47fc-3249-ab9dec5752a9/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/79da7132-4804-47fc-3249-ab9dec5752a9/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "4276d2b5-4b1c-b636-aff0-4ea579d875d7",
+        "displayName": "Singularity Sheriff",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/4276d2b5-4b1c-b636-aff0-4ea579d875d7/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/325ef495-4045-a13d-5b26-549fb2615d3b_default_universal.mp4"
+      },
+      {
+        "uuid": "4a585df0-4bc4-17aa-1e5a-ccac42b07d12",
+        "displayName": "Singularity Sheriff Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/4a585df0-4bc4-17aa-1e5a-ccac42b07d12/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/01381b0a-471b-5823-a8e8-f0a495cd950f_default_universal.mp4"
+      },
+      {
+        "uuid": "f73b2921-4f40-918e-08eb-45abd9ce2b3c",
+        "displayName": "Singularity Sheriff Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f73b2921-4f40-918e-08eb-45abd9ce2b3c/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/a4463d0c-4901-6cc8-ed54-97903d307f87_default_universal.mp4"
+      },
+      {
+        "uuid": "65c2c8d3-4473-4f74-305c-ff90fbf318e8",
+        "displayName": "Singularity Sheriff Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/65c2c8d3-4473-4f74-305c-ff90fbf318e8/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/bcc3a9bc-4641-42a4-2e3c-e4a053cdb8ea_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "a40a6ce2-462c-c864-5d30-7b9408b98d3d",
+    "displayName": "Reaver Sheriff",
+    "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/a40a6ce2-462c-c864-5d30-7b9408b98d3d/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "c092687f-4af4-f843-f68b-b989000e240d",
+        "displayName": "Reaver Sheriff",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c092687f-4af4-f843-f68b-b989000e240d/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/c092687f-4af4-f843-f68b-b989000e240d/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/c092687f-4af4-f843-f68b-b989000e240d/swatch.png"
+      },
+      {
+        "uuid": "c17b4920-4379-99ef-1d56-9cb9c2645d1e",
+        "displayName": "Reaver Sheriff Level 4\r\n(Variant 1 Red)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c17b4920-4379-99ef-1d56-9cb9c2645d1e/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/c17b4920-4379-99ef-1d56-9cb9c2645d1e/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/c17b4920-4379-99ef-1d56-9cb9c2645d1e/swatch.png"
+      },
+      {
+        "uuid": "8d7b103a-4c81-3c67-ebb5-51ab29aef327",
+        "displayName": "Reaver Sheriff Level 4\r\n(Variant 2 Black)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8d7b103a-4c81-3c67-ebb5-51ab29aef327/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/8d7b103a-4c81-3c67-ebb5-51ab29aef327/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/8d7b103a-4c81-3c67-ebb5-51ab29aef327/swatch.png"
+      },
+      {
+        "uuid": "2ba467bc-4df2-4841-bedb-99b17c7bd067",
+        "displayName": "Reaver Sheriff Level 4\r\n(Variant 3 White)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/2ba467bc-4df2-4841-bedb-99b17c7bd067/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/2ba467bc-4df2-4841-bedb-99b17c7bd067/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/2ba467bc-4df2-4841-bedb-99b17c7bd067/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "4e4ebb8d-41d0-c326-595a-1f9b257e91fa",
+        "displayName": "Reaver Sheriff",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/4e4ebb8d-41d0-c326-595a-1f9b257e91fa/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/8395a67a-499f-5a14-8024-0e928b81bc2b_default_universal.mp4"
+      },
+      {
+        "uuid": "ab5c63fc-46c0-8c7d-1d67-0da96d4b8cf7",
+        "displayName": "Reaver Sheriff Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/5b73e4c2-4f2e-c88d-c8a8-55aef290b9a4_default_universal.mp4"
+      },
+      {
+        "uuid": "ef84244d-4f04-01dd-36ba-c7b97a688754",
+        "displayName": "Reaver Sheriff Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/19c8de04-43b2-181d-9650-7780f8f4edde_default_universal.mp4"
+      },
+      {
+        "uuid": "a47a0d1b-4405-9de7-6011-68a9a4a1f36d",
+        "displayName": "Reaver Sheriff Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/77f1f479-42f4-3bc5-6519-8da74ef560a5_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "a9890917-41ea-eb55-47e7-ee990a87fa4e",
+    "displayName": "Sovereign Ghost",
+    "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/a9890917-41ea-eb55-47e7-ee990a87fa4e/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "a84764d9-4f1e-a652-3530-1497e2505285",
+        "displayName": "Sovereign Ghost",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a84764d9-4f1e-a652-3530-1497e2505285/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/a84764d9-4f1e-a652-3530-1497e2505285/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/a84764d9-4f1e-a652-3530-1497e2505285/swatch.png"
+      },
+      {
+        "uuid": "9acf9e55-46b9-5061-f1e7-4fa996fb96c1",
+        "displayName": "Sovereign Ghost Level 4\r\n(Variant 1 Green)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9acf9e55-46b9-5061-f1e7-4fa996fb96c1/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/9acf9e55-46b9-5061-f1e7-4fa996fb96c1/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/9acf9e55-46b9-5061-f1e7-4fa996fb96c1/swatch.png"
+      },
+      {
+        "uuid": "357a60e7-431e-f7ad-847e-1da16897b1f7",
+        "displayName": "Sovereign Ghost Level 4\r\n(Variant 2 Silver)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/357a60e7-431e-f7ad-847e-1da16897b1f7/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/357a60e7-431e-f7ad-847e-1da16897b1f7/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/357a60e7-431e-f7ad-847e-1da16897b1f7/swatch.png"
+      },
+      {
+        "uuid": "c208e6a1-4bb8-e1d9-6943-848db2aaf3bb",
+        "displayName": "Sovereign Ghost Level 4\r\n(Variant 3 Purple)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c208e6a1-4bb8-e1d9-6943-848db2aaf3bb/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/c208e6a1-4bb8-e1d9-6943-848db2aaf3bb/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/c208e6a1-4bb8-e1d9-6943-848db2aaf3bb/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "ed8a1109-4e48-f077-636b-e98dd332bfcc",
+        "displayName": "Sovereign Ghost",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/ed8a1109-4e48-f077-636b-e98dd332bfcc/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/fd840e0f-6961-4794-900e-8f4350be4679_default_universal.mp4"
+      },
+      {
+        "uuid": "94b4e0f7-454d-0e5b-9f32-4d9fd399d8a2",
+        "displayName": "Sovereign Ghost Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/94b4e0f7-454d-0e5b-9f32-4d9fd399d8a2/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/1eccad1f-89ca-4f26-be4d-64bb288c7e84_default_universal.mp4"
+      },
+      {
+        "uuid": "5aa0593c-40fc-b9c4-9232-7f91f75b9fbd",
+        "displayName": "Sovereign Ghost Level 3",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/5aa0593c-40fc-b9c4-9232-7f91f75b9fbd/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/d3807099-eafe-4551-8dcd-c9bbbfb5323e_default_universal.mp4"
+      },
+      {
+        "uuid": "d5e747da-4d41-28e2-68b2-c5b41584f7cb",
+        "displayName": "Sovereign Ghost Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/d5e747da-4d41-28e2-68b2-c5b41584f7cb/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/8adc51e9-a098-4efb-8897-87b3438a7daa_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "33824a13-453b-0636-4ec4-e19708aa934e",
+    "displayName": "Magepunk Ghost",
+    "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/33824a13-453b-0636-4ec4-e19708aa934e/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "74f79cb4-4c46-200d-0a4f-838908f1970a",
+        "displayName": "Magepunk Ghost",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/74f79cb4-4c46-200d-0a4f-838908f1970a/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/74f79cb4-4c46-200d-0a4f-838908f1970a/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/74f79cb4-4c46-200d-0a4f-838908f1970a/swatch.png"
+      },
+      {
+        "uuid": "1bbfda5b-480d-9c61-9549-fe9a62b05ffc",
+        "displayName": "Magepunk Ghost Level 4\r\n(Variant 1 Green)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/1bbfda5b-480d-9c61-9549-fe9a62b05ffc/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/1bbfda5b-480d-9c61-9549-fe9a62b05ffc/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/1bbfda5b-480d-9c61-9549-fe9a62b05ffc/swatch.png"
+      },
+      {
+        "uuid": "7d6f96cf-4e06-0a9e-c60f-bd8fa679fbe6",
+        "displayName": "Magepunk Ghost Level 4\r\n(Variant 2 Purple)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/7d6f96cf-4e06-0a9e-c60f-bd8fa679fbe6/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/7d6f96cf-4e06-0a9e-c60f-bd8fa679fbe6/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/7d6f96cf-4e06-0a9e-c60f-bd8fa679fbe6/swatch.png"
+      },
+      {
+        "uuid": "5a4ed6de-4dd6-3d53-c469-1d9f0188273d",
+        "displayName": "Magepunk Ghost Level 4\r\n(Variant 3 Orange)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/5a4ed6de-4dd6-3d53-c469-1d9f0188273d/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/5a4ed6de-4dd6-3d53-c469-1d9f0188273d/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/5a4ed6de-4dd6-3d53-c469-1d9f0188273d/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "003e0991-4370-8837-f8fc-6ab3acec2dbf",
+        "displayName": "Magepunk Ghost",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/003e0991-4370-8837-f8fc-6ab3acec2dbf/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/b8eef80e-45c8-d612-91cb-1ba5b8025ba8_default_universal.mp4"
+      },
+      {
+        "uuid": "b5ced653-45ca-9cd4-e6d5-8db020c6881d",
+        "displayName": "Magepunk Ghost Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/b5ced653-45ca-9cd4-e6d5-8db020c6881d/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/befc87ef-40ab-7360-e828-7f8159697d10_default_universal.mp4"
+      },
+      {
+        "uuid": "aa704280-43ff-991e-c3d7-63abf43c8bd0",
+        "displayName": "Magepunk Ghost Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/aa704280-43ff-991e-c3d7-63abf43c8bd0/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/2259b458-466b-7313-bb2a-0fb7025716f9_default_universal.mp4"
+      },
+      {
+        "uuid": "abf6805e-4def-f0f0-92cf-28bb67c46fed",
+        "displayName": "Magepunk Ghost Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/abf6805e-4def-f0f0-92cf-28bb67c46fed/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/be0160a8-40c2-4542-e47c-ee9e7461a59c_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "c7261be6-47d2-ef86-82f4-6a844e45d33c",
+    "displayName": "Reaver Ghost",
+    "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/c7261be6-47d2-ef86-82f4-6a844e45d33c/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "04bcace1-4d82-7093-f812-a5bff8306a54",
+        "displayName": "Reaver Ghost",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/04bcace1-4d82-7093-f812-a5bff8306a54/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/04bcace1-4d82-7093-f812-a5bff8306a54/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/04bcace1-4d82-7093-f812-a5bff8306a54/swatch.png"
+      },
+      {
+        "uuid": "4e3b34c5-4012-7842-3f42-9aaaa6af2f98",
+        "displayName": "Reaver Ghost Level 4\r\n(Variant 1 Red)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/4e3b34c5-4012-7842-3f42-9aaaa6af2f98/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/4e3b34c5-4012-7842-3f42-9aaaa6af2f98/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/4e3b34c5-4012-7842-3f42-9aaaa6af2f98/swatch.png"
+      },
+      {
+        "uuid": "b7dc18e4-42bf-d734-1b3e-afa72c497c77",
+        "displayName": "Reaver Ghost Level 4\r\n(Variant 2 Black)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b7dc18e4-42bf-d734-1b3e-afa72c497c77/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/b7dc18e4-42bf-d734-1b3e-afa72c497c77/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/b7dc18e4-42bf-d734-1b3e-afa72c497c77/swatch.png"
+      },
+      {
+        "uuid": "99f5b206-40d3-025a-9143-828c2ca40bf6",
+        "displayName": "Reaver Ghost Level 4\r\n(Variant 3 White)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/99f5b206-40d3-025a-9143-828c2ca40bf6/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/99f5b206-40d3-025a-9143-828c2ca40bf6/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/99f5b206-40d3-025a-9143-828c2ca40bf6/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "a6fe7710-4edc-5e23-223d-aeaef3d17866",
+        "displayName": "Reaver Ghost",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/a6fe7710-4edc-5e23-223d-aeaef3d17866/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/ffd46c92-4bd3-799c-42f7-59a4ad9f1af0_default_universal.mp4"
+      },
+      {
+        "uuid": "aef240db-4587-9d5d-bf89-eab5eeacf28e",
+        "displayName": "Reaver Ghost Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/9e6f2bff-4876-7f21-3511-e292681a9e03_default_universal.mp4"
+      },
+      {
+        "uuid": "ab52517a-4a6c-0af9-1fc4-dbba07d6cd16",
+        "displayName": "Reaver Ghost Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/e416522e-4800-2df1-29b8-a384d0ea2306_default_universal.mp4"
+      },
+      {
+        "uuid": "8ac0b94e-4b23-d9d2-8bc0-a7a34b477930",
+        "displayName": "Reaver Ghost Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/0b9327ed-433a-1e57-b36b-84b0fce0a995_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "daed0e44-4ab6-22b4-a5a5-57a4957a056b",
+    "displayName": "Gaia's Vengeance Ghost",
+    "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/daed0e44-4ab6-22b4-a5a5-57a4957a056b/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "47424591-4a33-eb97-f90e-78998bfe2d41",
+        "displayName": "Gaia's Vengeance Ghost",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/47424591-4a33-eb97-f90e-78998bfe2d41/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/47424591-4a33-eb97-f90e-78998bfe2d41/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/47424591-4a33-eb97-f90e-78998bfe2d41/swatch.png"
+      },
+      {
+        "uuid": "b46355ea-407d-241b-0119-618774f4dbc9",
+        "displayName": "Gaia's Vengeance Ghost Level 4\n(Variant 1 Blue)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b46355ea-407d-241b-0119-618774f4dbc9/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/b46355ea-407d-241b-0119-618774f4dbc9/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/b46355ea-407d-241b-0119-618774f4dbc9/swatch.png"
+      },
+      {
+        "uuid": "1fce96b9-4043-3ce8-e5e2-b4870405f6f0",
+        "displayName": "Gaia's Vengeance Ghost Level 4\n(Variant 2 Green)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/1fce96b9-4043-3ce8-e5e2-b4870405f6f0/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/1fce96b9-4043-3ce8-e5e2-b4870405f6f0/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/1fce96b9-4043-3ce8-e5e2-b4870405f6f0/swatch.png"
+      },
+      {
+        "uuid": "ecc92d4d-4eab-255b-2075-5ba068915168",
+        "displayName": "Gaia's Vengeance Ghost Level 4\r\n(Variant 3 Orange)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ecc92d4d-4eab-255b-2075-5ba068915168/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/ecc92d4d-4eab-255b-2075-5ba068915168/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/ecc92d4d-4eab-255b-2075-5ba068915168/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "f7862f1f-4340-6e42-b1fa-0ebcdcf43456",
+        "displayName": "Gaia's Vengeance Ghost",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f7862f1f-4340-6e42-b1fa-0ebcdcf43456/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/2d00b1cb-4d0b-608c-5246-db968e9eec4e_default_universal.mp4"
+      },
+      {
+        "uuid": "faced80a-4ebf-c35d-ef38-71a32b63a143",
+        "displayName": "Gaia's Vengeance Ghost Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/9319b37e-4a3a-24cf-61a0-2dbd5117646c_default_universal.mp4"
+      },
+      {
+        "uuid": "1694d232-4a90-7da9-dd1f-268626aa573d",
+        "displayName": "Gaia's Vengeance Ghost Level 3",
+        "levelItem": null,
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/27d8a249-4714-5a98-dc9f-488f03fbc113_default_universal.mp4"
+      },
+      {
+        "uuid": "13d0ce22-4c97-02a0-4e16-c7964d9b1332",
+        "displayName": "Gaia's Vengeance Ghost Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/0dcc777d-4635-fb77-a576-ca83baa859be_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "d653f4a7-4e92-2559-0a97-2c9d46d009b3",
+    "displayName": "Prime Classic",
+    "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/d653f4a7-4e92-2559-0a97-2c9d46d009b3/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "d9dce0ec-464c-df67-63a3-1f9a05d322ad",
+        "displayName": "Prime Classic",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d9dce0ec-464c-df67-63a3-1f9a05d322ad/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/d9dce0ec-464c-df67-63a3-1f9a05d322ad/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/d9dce0ec-464c-df67-63a3-1f9a05d322ad/swatch.png"
+      },
+      {
+        "uuid": "42280760-422f-b5d1-4255-1e8993a817a4",
+        "displayName": "Prime Classic Level 4\r\n(Variant 1 Orange)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/42280760-422f-b5d1-4255-1e8993a817a4/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/42280760-422f-b5d1-4255-1e8993a817a4/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/42280760-422f-b5d1-4255-1e8993a817a4/swatch.png"
+      },
+      {
+        "uuid": "02390051-4309-22d4-b733-c09fbfcf2e7f",
+        "displayName": "Prime Classic Level 4\r\n(Variant 2 Blue)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/02390051-4309-22d4-b733-c09fbfcf2e7f/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/02390051-4309-22d4-b733-c09fbfcf2e7f/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/02390051-4309-22d4-b733-c09fbfcf2e7f/swatch.png"
+      },
+      {
+        "uuid": "9fcc46a1-42f8-6407-787d-cb9d3e0bb718",
+        "displayName": "Prime Classic Level 4\r\n(Variant 3 Yellow)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9fcc46a1-42f8-6407-787d-cb9d3e0bb718/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/9fcc46a1-42f8-6407-787d-cb9d3e0bb718/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/9fcc46a1-42f8-6407-787d-cb9d3e0bb718/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "c7695ce7-4fc9-1c79-64b3-8c8f9e21571c",
+        "displayName": "Prime Classic",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/c7695ce7-4fc9-1c79-64b3-8c8f9e21571c/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/72d67dd0-0d79-4c98-9e1d-c10068b024a8_default_universal.mp4"
+      },
+      {
+        "uuid": "7b2c1232-460b-ab9a-1eca-55b5aee9ad08",
+        "displayName": "Prime Classic Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/7b2c1232-460b-ab9a-1eca-55b5aee9ad08/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/a670ee4b-a202-4c7f-8021-7e4e11840cff_default_universal.mp4"
+      },
+      {
+        "uuid": "4fc58223-43e7-a868-a6df-5e93be31369c",
+        "displayName": "Prime Classic Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/4fc58223-43e7-a868-a6df-5e93be31369c/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/4c99c871-f3b6-4bcc-87ff-2c83adaac322_default_universal.mp4"
+      },
+      {
+        "uuid": "e8a35ddb-4ce7-3867-154c-94803ed12a24",
+        "displayName": "Prime Classic Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/e8a35ddb-4ce7-3867-154c-94803ed12a24/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/be82422e-f56b-4a8b-bc1b-b11d8e053618_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "8b2598eb-4db9-6338-4a25-c780402c780e",
+    "displayName": "Glitchpop Classic",
+    "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/8b2598eb-4db9-6338-4a25-c780402c780e/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "bb1e1703-4ea1-9be5-c145-4480a6b9f0d7",
+        "displayName": "Glitchpop Classic",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/bb1e1703-4ea1-9be5-c145-4480a6b9f0d7/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/bb1e1703-4ea1-9be5-c145-4480a6b9f0d7/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/bb1e1703-4ea1-9be5-c145-4480a6b9f0d7/swatch.png"
+      },
+      {
+        "uuid": "93b03058-467e-6d13-5554-4a88880430c7",
+        "displayName": "Glitchpop Classic Level 4\n(Variant 1 Blue)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/93b03058-467e-6d13-5554-4a88880430c7/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/93b03058-467e-6d13-5554-4a88880430c7/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/93b03058-467e-6d13-5554-4a88880430c7/swatch.png"
+      },
+      {
+        "uuid": "be6c975e-42d4-17cb-5591-dc8e11b4de05",
+        "displayName": "Glitchpop Classic Level 4\n(Variant 2 Red)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/be6c975e-42d4-17cb-5591-dc8e11b4de05/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/be6c975e-42d4-17cb-5591-dc8e11b4de05/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/be6c975e-42d4-17cb-5591-dc8e11b4de05/swatch.png"
+      },
+      {
+        "uuid": "4d83874b-4385-a927-222c-3097cb330824",
+        "displayName": "Glitchpop Classic Level 4\n(Variant 3 Gold)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/4d83874b-4385-a927-222c-3097cb330824/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/4d83874b-4385-a927-222c-3097cb330824/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/4d83874b-4385-a927-222c-3097cb330824/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "25cb63cd-416e-ab23-2377-d18638679871",
+        "displayName": "Glitchpop Classic",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/25cb63cd-416e-ab23-2377-d18638679871/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/f59f33e5-4158-0d7e-8747-28b76f0f2552_default_universal.mp4"
+      },
+      {
+        "uuid": "1a8103b0-4daf-2bee-6051-75a80cc49dce",
+        "displayName": "Glitchpop Classic Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/0ae41327-4608-ce6b-7200-47bb70ebbc0f_default_universal.mp4"
+      },
+      {
+        "uuid": "f7b66f96-46af-4003-7b9c-9d86a18fead8",
+        "displayName": "Glitchpop Classic Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/28bcd917-48a4-2600-6bf6-a88b13bef7d5_default_universal.mp4"
+      },
+      {
+        "uuid": "748397a3-42c7-7482-3451-57a28b3af4c3",
+        "displayName": "Glitchpop Classic Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/ceee9967-48aa-727b-ec9b-2ab9a6bd3404_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "46f32f75-4fc8-7121-8a77-db8db43afc67",
+    "displayName": "Spectrum Classic",
+    "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/46f32f75-4fc8-7121-8a77-db8db43afc67/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "e6a6ea31-4a05-8889-b065-d09a536afffd",
+        "displayName": "Spectrum Classic",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e6a6ea31-4a05-8889-b065-d09a536afffd/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/e6a6ea31-4a05-8889-b065-d09a536afffd/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/e6a6ea31-4a05-8889-b065-d09a536afffd/swatch.png"
+      },
+      {
+        "uuid": "c2e3235a-426a-0a34-8559-6492ca4434a9",
+        "displayName": "Spectrum Classic Level 4\n(Variant 1 Black)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c2e3235a-426a-0a34-8559-6492ca4434a9/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/c2e3235a-426a-0a34-8559-6492ca4434a9/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/c2e3235a-426a-0a34-8559-6492ca4434a9/swatch.png"
+      },
+      {
+        "uuid": "c8ec1980-46c4-83d2-f405-58b36bed40c7",
+        "displayName": "Spectrum Classic Level 4\n(Variant 2 Red)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c8ec1980-46c4-83d2-f405-58b36bed40c7/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/c8ec1980-46c4-83d2-f405-58b36bed40c7/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/c8ec1980-46c4-83d2-f405-58b36bed40c7/swatch.png"
+      },
+      {
+        "uuid": "1746329a-450b-db34-eb45-a19c4af64aa8",
+        "displayName": "Spectrum Classic Level 4\n(Variant 3 Purple/Pink)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/1746329a-450b-db34-eb45-a19c4af64aa8/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/1746329a-450b-db34-eb45-a19c4af64aa8/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/1746329a-450b-db34-eb45-a19c4af64aa8/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "fe32e4bd-420f-b4cc-de37-febb78df9e16",
+        "displayName": "Spectrum Classic",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/fe32e4bd-420f-b4cc-de37-febb78df9e16/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/bb03aa45-4115-664c-22b9-bf8ef20f0d12_default_universal.mp4"
+      },
+      {
+        "uuid": "dfa8a5fd-41bb-cb7f-a8c9-f4b9e1d1de26",
+        "displayName": "Spectrum Classic Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/3aed15cf-44fd-2ba3-77df-a88c89fb44ff_default_universal.mp4"
+      },
+      {
+        "uuid": "345b4316-42d1-6e90-321d-fa930ef43762",
+        "displayName": "Spectrum Classic Level 3",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/345b4316-42d1-6e90-321d-fa930ef43762/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/3b334d85-4471-86d0-3f9d-3d97c94cbfbc_default_universal.mp4"
+      },
+      {
+        "uuid": "40489a32-47c8-710c-5ed9-738a61a3db38",
+        "displayName": "Spectrum Classic Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/9c964366-4400-adf5-d932-66ad1593fe20_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "edb386a1-4d02-4fd0-2f84-f8bf6434e5c4",
+    "displayName": "Cryostasis Classic",
+    "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/edb386a1-4d02-4fd0-2f84-f8bf6434e5c4/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "ba903a6d-41ce-494a-38b6-7188c10f9231",
+        "displayName": "Cryostasis Classic",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ba903a6d-41ce-494a-38b6-7188c10f9231/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/ba903a6d-41ce-494a-38b6-7188c10f9231/fullrender.png",
+        "swatch": null
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "59e65120-4806-491a-9e88-13a26c80ee3f",
+        "displayName": "Cryostasis Classic",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/59e65120-4806-491a-9e88-13a26c80ee3f/displayicon.png",
+        "streamedVideo": null
+      },
+      {
+        "uuid": "5383be6c-4249-5789-0836-eb985e826954",
+        "displayName": "Cryostasis Classic Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/1f463495-4b28-a2a3-d804-45885653d6bc_default_universal.mp4"
+      },
+      {
+        "uuid": "258fab16-4723-56bb-2fac-06951346be1e",
+        "displayName": "Cryostasis Classic Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/d0e0c29e-458d-8b4d-1bba-a5b256f1aa20_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "e5490f71-455b-74ad-f762-f5a876d4dff9",
+    "displayName": "RGX 11z Pro Vandal",
+    "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/e5490f71-455b-74ad-f762-f5a876d4dff9/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "742740d0-4e50-57e1-af32-f991c7c640f8",
+        "displayName": "RGX 11z Pro Vandal",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/742740d0-4e50-57e1-af32-f991c7c640f8/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/742740d0-4e50-57e1-af32-f991c7c640f8/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/742740d0-4e50-57e1-af32-f991c7c640f8/swatch.png"
+      },
+      {
+        "uuid": "700f04e0-41dd-7e10-4103-ab9af60d3447",
+        "displayName": "RGX 11z Pro Vandal Level 5\r\n(Variant 1 Red)",
+        "displayIcon": null,
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/700f04e0-41dd-7e10-4103-ab9af60d3447/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/700f04e0-41dd-7e10-4103-ab9af60d3447/swatch.png"
+      },
+      {
+        "uuid": "4df3ba9f-4f72-dea8-c8d3-05a0dc1b7b58",
+        "displayName": "RGX 11z Pro Vandal Level 5\r\n(Variant 2 Blue)",
+        "displayIcon": null,
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/4df3ba9f-4f72-dea8-c8d3-05a0dc1b7b58/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/4df3ba9f-4f72-dea8-c8d3-05a0dc1b7b58/swatch.png"
+      },
+      {
+        "uuid": "038c6a4d-4fc5-5886-492c-ff8269661bf9",
+        "displayName": "RGX 11z Pro Vandal Level 5\r\n(Variant 3 Yellow)",
+        "displayIcon": null,
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/038c6a4d-4fc5-5886-492c-ff8269661bf9/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/038c6a4d-4fc5-5886-492c-ff8269661bf9/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "4e435234-49a2-1444-4640-908692c855b8",
+        "displayName": "RGX 11z Pro Vandal",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/4e435234-49a2-1444-4640-908692c855b8/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/197511ac-4d5a-97fc-78f8-feb5d090dd20_default_universal.mp4"
+      },
+      {
+        "uuid": "524ebe7d-4a3b-cf50-ed55-1092d82cebf9",
+        "displayName": "RGX 11z Pro Vandal Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/ca980cdd-4248-f81c-ad08-9fb8c4725eba_default_universal.mp4"
+      },
+      {
+        "uuid": "1561075c-4fe9-882e-39fb-eca6eeab924c",
+        "displayName": "RGX 11z Pro Vandal Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/cc5c3f84-492a-ed13-17f3-70a014351158_default_universal.mp4"
+      },
+      {
+        "uuid": "f435e745-462b-c4bd-7ddf-a99ea33a0f16",
+        "displayName": "RGX 11z Pro Vandal Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/45344553-4490-d3aa-d10a-22b023135cbc_default_universal.mp4"
+      },
+      {
+        "uuid": "796cf1d2-4893-fee7-3401-beb277c726c8",
+        "displayName": "RGX 11z Pro Vandal Level 5",
+        "levelItem": "EEquippableSkinLevelItem::KillCounter",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/e6f5c644-49df-90e0-69f0-b9b6d33cd9a0_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "000ad7b1-44b0-9345-ea47-9cbd7dcdbb38",
+    "displayName": "Gaia's Vengeance Vandal",
+    "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/000ad7b1-44b0-9345-ea47-9cbd7dcdbb38/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "c9d93000-4133-3f68-20ea-81a307ef0540",
+        "displayName": "Gaia's Vengeance Vandal",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c9d93000-4133-3f68-20ea-81a307ef0540/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/c9d93000-4133-3f68-20ea-81a307ef0540/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/c9d93000-4133-3f68-20ea-81a307ef0540/swatch.png"
+      },
+      {
+        "uuid": "ee020712-4e21-2d01-8ec7-5281fbc3489a",
+        "displayName": "Gaia's Vengeance Vandal Level 4\n(Variant 1 Blue)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ee020712-4e21-2d01-8ec7-5281fbc3489a/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/ee020712-4e21-2d01-8ec7-5281fbc3489a/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/ee020712-4e21-2d01-8ec7-5281fbc3489a/swatch.png"
+      },
+      {
+        "uuid": "947f3bf8-4187-b89f-01ab-be97f949ac72",
+        "displayName": "Gaia's Vengeance Vandal Level 4\n(Variant 2 Green)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/947f3bf8-4187-b89f-01ab-be97f949ac72/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/947f3bf8-4187-b89f-01ab-be97f949ac72/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/947f3bf8-4187-b89f-01ab-be97f949ac72/swatch.png"
+      },
+      {
+        "uuid": "c12e2ea7-49b3-1871-99ac-8f8385d78ed5",
+        "displayName": "Gaia's Vengeance Vandal Level 4\r\n(Variant 3 Orange)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c12e2ea7-49b3-1871-99ac-8f8385d78ed5/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/c12e2ea7-49b3-1871-99ac-8f8385d78ed5/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/c12e2ea7-49b3-1871-99ac-8f8385d78ed5/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "c4422d16-4cb1-75d5-fd18-dda0bb05f46b",
+        "displayName": "Gaia's Vengeance Vandal",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/c4422d16-4cb1-75d5-fd18-dda0bb05f46b/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/dcd97281-48d6-00a3-769b-058e6eecfb69_default_universal.mp4"
+      },
+      {
+        "uuid": "0832fe9d-43bf-38bf-df60-9dac91449997",
+        "displayName": "Gaia's Vengeance Vandal Level 2",
+        "levelItem": "EEquippableSkinLevelItem::VFX",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/50d55ef8-4eae-c04f-f640-17bc3fd6f48a_default_universal.mp4"
+      },
+      {
+        "uuid": "d5c3e32c-4d18-7608-2bab-21851f4036e3",
+        "displayName": "Gaia's Vengeance Vandal Level 3",
+        "levelItem": null,
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/0d126328-4769-64ea-58cc-62bc2614ec8d_default_universal.mp4"
+      },
+      {
+        "uuid": "4c4b080d-4b05-65e8-a9c1-6d90aafa7347",
+        "displayName": "Gaia's Vengeance Vandal Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/8eec3b5a-40dd-395d-7140-1db9bf0af4fb_default_universal.mp4"
+      }
+    ]
+  },
+  {
+    "uuid": "bbd3a52f-411e-3475-a6aa-ea88b54de53c",
+    "displayName": "Overdrive Vandal",
+    "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/bbd3a52f-411e-3475-a6aa-ea88b54de53c/displayicon.png",
+    "chromas": [
+      {
+        "uuid": "048ab630-4117-a932-d26d-208aad284072",
+        "displayName": "Overdrive Vandal",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/048ab630-4117-a932-d26d-208aad284072/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/048ab630-4117-a932-d26d-208aad284072/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/048ab630-4117-a932-d26d-208aad284072/swatch.png"
+      },
+      {
+        "uuid": "49d88aec-4f79-ab83-3ecb-f7a4250e03bb",
+        "displayName": "Overdrive Vandal Level 4\r\n(Variant 1 Cobalt)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/49d88aec-4f79-ab83-3ecb-f7a4250e03bb/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/49d88aec-4f79-ab83-3ecb-f7a4250e03bb/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/49d88aec-4f79-ab83-3ecb-f7a4250e03bb/swatch.png"
+      },
+      {
+        "uuid": "fd000d0b-4376-bfd0-14fa-e7b18ddf1c7a",
+        "displayName": "Overdrive Vandal Level 4\r\n(Variant 2 Bubblegum)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/fd000d0b-4376-bfd0-14fa-e7b18ddf1c7a/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/fd000d0b-4376-bfd0-14fa-e7b18ddf1c7a/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/fd000d0b-4376-bfd0-14fa-e7b18ddf1c7a/swatch.png"
+      },
+      {
+        "uuid": "bc2ebd80-4da8-65db-2eb5-aebeac5a9ffe",
+        "displayName": "Overdrive Vandal Level 4\r\n(Variant 3 Onyx)",
+        "displayIcon": "https://media.valorant-api.com/weaponskinchromas/bc2ebd80-4da8-65db-2eb5-aebeac5a9ffe/displayicon.png",
+        "fullRender": "https://media.valorant-api.com/weaponskinchromas/bc2ebd80-4da8-65db-2eb5-aebeac5a9ffe/fullrender.png",
+        "swatch": "https://media.valorant-api.com/weaponskinchromas/bc2ebd80-4da8-65db-2eb5-aebeac5a9ffe/swatch.png"
+      }
+    ],
+    "levels": [
+      {
+        "uuid": "6d627f56-4f0e-e217-d0ff-87b4fa6c66bb",
+        "displayName": "Overdrive Vandal",
+        "levelItem": null,
+        "displayIcon": "https://media.valorant-api.com/weaponskinlevels/6d627f56-4f0e-e217-d0ff-87b4fa6c66bb/displayicon.png",
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/a66697e2-4633-ff6e-76b3-2cb3e171ed93_default_universal.mp4"
+      },
+      {
+        "uuid": "3edfa19c-4b70-9e22-032c-39b6173628eb",
+        "displayName": "Overdrive Vandal Level 2",
+        "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/f6c5702c-4ca5-c1a9-659c-3ba7452ecf5f_default_universal.mp4"
+      },
+      {
+        "uuid": "d7c46b82-480d-fc5c-31ce-03a39c936af6",
+        "displayName": "Overdrive Vandal Level 3",
+        "levelItem": "EEquippableSkinLevelItem::Animation",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/330f7731-464c-e92b-f839-30bdead7f03f_default_universal.mp4"
+      },
+      {
+        "uuid": "63de80a8-405b-df7c-0fd4-50856705df54",
+        "displayName": "Overdrive Vandal Level 4",
+        "levelItem": "EEquippableSkinLevelItem::Finisher",
+        "displayIcon": null,
+        "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.08/c0074a56-4b51-77c7-1169-03a54b62b74e_default_universal.mp4"
+      }
+    ]
+  }
+]
