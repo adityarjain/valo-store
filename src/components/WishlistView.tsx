@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { useStore } from '@/context/StoreContext';
 import { VpIcon } from './VpIcon';
 import { hasPrice, sumKnown, PRICE_UNAVAILABLE } from '@/utils/price';
+import { EstMark } from '@/components/EstMark';
 import {
   Heart,
   Trash2,
@@ -124,6 +125,7 @@ export const WishlistView: React.FC = () => {
               <VpIcon size={20} />
               <span className="font-mono font-bold text-xl text-white">
                 {totalWishlistVp.toLocaleString()} VP
+                <EstMark status={wishlistedSkins.some((s) => s.priceStatus === 'estimated') ? 'estimated' : undefined} />
               </span>
               {unpricedWishlistCount > 0 && (
                 <span className="text-[10px] font-mono text-[#FAD663]">
@@ -301,6 +303,7 @@ export const WishlistView: React.FC = () => {
                       <VpIcon size={14} />
                       <span className="font-mono text-xs text-white font-bold">
                         {hasPrice(skin.defaultPrice) ? `${skin.defaultPrice.toLocaleString()} VP` : PRICE_UNAVAILABLE}
+                        {hasPrice(skin.defaultPrice) && <EstMark status={skin.priceStatus} note={skin.priceNote} />}
                       </span>
                     </div>
 

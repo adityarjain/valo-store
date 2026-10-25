@@ -6,6 +6,7 @@ import { useStore } from '@/context/StoreContext';
 import { VpIcon } from './VpIcon';
 import { Sparkles, Eye, Star, Heart, Lock, CheckCircle2 } from 'lucide-react';
 import { playSound } from '@/utils/audio';
+import { EstMark } from '@/components/EstMark';
 
 export const NightMarketSection: React.FC = () => {
   const {
@@ -168,6 +169,7 @@ export const NightMarketSection: React.FC = () => {
                         <span className="text-[10px] font-mono line-through text-[#657788]">
                           {item.originalPrice.toLocaleString()}
                         </span>
+                        <EstMark status={skin.priceStatus} note={skin.priceNote} />
                       </div>
 
                       {canAfford && (

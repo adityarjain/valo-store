@@ -17,7 +17,7 @@ export const CURATED_SKINS: Skin[] = (rawSkins as RawSkinItem[]).map((raw) => {
   const collectionName = detectCollectionName(raw.displayName);
   const tier = getTierFromUuid(raw.contentTierUuid);
 
-  // Calculate authentic Valorant Point (VP) price based on tier & melee vs weapon
+  // Estimate a Valorant Point (VP) price based on tier & melee vs weapon
   // These are tier-bracket estimates plus community-documented overrides, not Riot store prices.
   // A tier with no price bracket (Standard) stays null instead of becoming 0 VP.
   let defaultPrice: number | null = tier.basePrice > 0 ? tier.basePrice : null;

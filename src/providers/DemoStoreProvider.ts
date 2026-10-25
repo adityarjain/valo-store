@@ -28,9 +28,9 @@ export class DemoStoreProvider implements StoreProvider {
       mode: 'demo',
       providerName: 'Demo Store Provider (Offline / Simulation)',
       version: '1.2.0',
-      message: 'Running in local simulation mode. Authentic cosmetics catalog with deterministic daily rotation.',
+      message: 'Running in local simulation mode. Real cosmetics catalog with a deterministic, simulated daily rotation.',
       details:
-        'All prices, weapon models, sound/video previews, and tiers match VALORANT specifications. No Riot login or credentials required.',
+        'Weapon models, sound/video previews, and tiers come from the VALORANT cosmetics catalog. VP prices are estimates, not Riot store prices. No Riot login or credentials required.',
     };
   }
 

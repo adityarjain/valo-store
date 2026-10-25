@@ -77,7 +77,7 @@ export const SecurityModal: React.FC = () => {
               <span>3. Modular StoreProvider Architecture</span>
             </div>
             <p>
-              All storefront components render against a strictly typed <code className="text-[#00F5D4]">StoreProvider</code> TypeScript interface. The current active provider is <code className="text-white">DemoStoreProvider</code>, which generates authentic deterministic rotations. A placeholder <code className="text-white">LiveStoreProvider</code> is included in the codebase, safely reporting an <code className="text-[#FF8591]">unavailable</code> status until an official authorized Riot OAuth2 integration is possible.
+              All storefront components render against a strictly typed <code className="text-[#00F5D4]">StoreProvider</code> TypeScript interface. The current active provider is <code className="text-white">DemoStoreProvider</code>, which generates simulated, deterministic rotations with estimated prices. A placeholder <code className="text-white">LiveStoreProvider</code> is included in the codebase, safely reporting an <code className="text-[#FF8591]">unavailable</code> status until an official authorized Riot OAuth2 integration is possible.
             </p>
           </div>
 

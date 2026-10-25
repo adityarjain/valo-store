@@ -7,6 +7,7 @@ import { CountdownTimer } from './CountdownTimer';
 import { NightMarketSection } from './NightMarketSection';
 import { VpIcon } from './VpIcon';
 import { hasPrice, sumKnown } from '@/utils/price';
+import { EstMark } from '@/components/EstMark';
 import {
   RotateCcw,
   Sparkles,
@@ -182,6 +183,7 @@ export const DailyStoreView: React.FC = () => {
               <span className="font-mono font-bold text-white text-base">
                 {totalStoreVp.toLocaleString()} VP
                 {unpricedOffers > 0 && ` + ${unpricedOffers} unpriced`}
+                <EstMark status={offers.some((o) => o.skin.priceStatus === 'estimated') ? 'estimated' : undefined} />
               </span>
             </div>
           </div>

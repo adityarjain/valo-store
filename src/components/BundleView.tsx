@@ -7,6 +7,7 @@ import { VpIcon } from './VpIcon';
 import { Clock, Eye, Gift, Star, Heart } from 'lucide-react';
 import { playSound } from '@/utils/audio';
 import { hasPrice, PRICE_UNAVAILABLE } from '@/utils/price';
+import { EstMark } from '@/components/EstMark';
 
 export const BundleView: React.FC = () => {
   const { bundle, loading, setInspectSkin, preferences, toggleFavorite, toggleWishlist, isFavorite, isInWishlist } = useStore();
@@ -60,6 +61,9 @@ export const BundleView: React.FC = () => {
                   {hasPrice(bundle.price) ? bundle.price.toLocaleString() : PRICE_UNAVAILABLE}
                 </span>
                 {hasPrice(bundle.price) && <span className="text-xs font-mono text-[#6A7885]">VP</span>}
+                {hasPrice(bundle.price) && (
+                  <EstMark status={bundle.items.some((i) => i.skin.priceStatus === 'estimated') ? 'estimated' : undefined} />
+                )}
               </div>
 
               {hasPrice(bundle.basePrice) && hasPrice(savingsVp) && hasPrice(bundle.discountPercent) && bundle.discountPercent > 0 && (
@@ -165,6 +169,7 @@ export const BundleView: React.FC = () => {
                       <span className="font-mono text-xs text-white font-bold">
                         {hasPrice(item.price) ? item.price.toLocaleString() : PRICE_UNAVAILABLE}
                       </span>
+                      {hasPrice(item.price) && <EstMark status={skin.priceStatus} note={skin.priceNote} />}
                     </div>
                     <button
                       onClick={() => setInspectSkin(skin)}

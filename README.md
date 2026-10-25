@@ -9,7 +9,7 @@ Designed for players who want to inspect daily store rotations, flip mystery Nig
 ## Pages & Feature Highlights
 
 ### 1. Dashboard (Daily Store & Night Market)
-- **Daily Rotation**: 4 offer slots with high-resolution weapon art, official rarity tiers, and authentic VP prices.
+- **Daily Rotation**: 4 simulated offer slots with high-resolution weapon art, official rarity tiers, and **estimated** VP prices (marked "est.", see [About Prices](#about-prices)).
 - **Refresh Countdown**: Real-time timer counting down to the official daily store refresh (**00:00:00 UTC**).
 - **Interactive Night Market**: 6 mystery cards with randomized secret discounts (between -18% and -48%). Click any card to flip and reveal the weapon, discount badge, and slashed VP price.
 - **Affordability Indicators**: Real-time feedback calculating whether your current simulated VP balance can cover any or all daily store offers.
@@ -70,7 +70,7 @@ Third-party mobile apps, Discord bots, and unofficial web services that display 
 
 ### Our Solution: Safe Modular Provider
 Instead of risking your account, this viewer uses a modular `StoreProvider` interface:
-- **`DemoStoreProvider` (Active)**: Generates deterministic, authentic daily store rotations seeded by date, using real weapon skins, official rarity tiers, and authentic VP prices.
+- **`DemoStoreProvider` (Active)**: Generates a deterministic, simulated daily store rotation seeded by date, using real weapon skins and official rarity tiers, with **estimated** VP prices. It is not your actual store.
 - **`LiveStoreProvider` (Disabled)**: Safely reports an `unavailable` state with complete security context. If Riot Games ever provides an authorized OAuth2 storefront scope in the future, it can be integrated with zero UI rewrite.
 
 ---
@@ -150,6 +150,22 @@ Check ESLint standards:
 ```bash
 npm run lint
 ```
+
+### 5. Run Tests
+Seeded-rotation and price-handling tests (Node's built-in test runner via `tsx`):
+```bash
+npm test
+```
+
+---
+
+## About Prices
+
+[Valorant-API.com](https://valorant-api.com) provides cosmetic metadata only (names, art, tiers, chromas, levels). It has **no prices and no store data**, and Riot offers no public storefront API. So:
+
+- **Prices are estimates.** They come from the tier's standard VP bracket plus a few community-documented per-collection overrides, and are marked **est.** in the UI. Nothing is marked `verified`, because no authoritative price source exists.
+- **Unknown prices stay unknown.** A skin with no known price shows "Price unavailable" and is excluded from totals, price filters and affordability checks. It is never treated as 0 VP, and sorts last in price sorts.
+- **The store is simulated.** The daily offers and Night Market are a deterministic, date-seeded demo rotation, not your personalized store or discounts.
 
 ---
 
