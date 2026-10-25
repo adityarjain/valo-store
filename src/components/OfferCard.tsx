@@ -7,6 +7,7 @@ import { useStore } from '@/context/StoreContext';
 import { VpIcon } from './VpIcon';
 import { Star, Heart, Eye, CheckCircle2, AlertCircle } from 'lucide-react';
 import { playSound } from '@/utils/audio';
+import { hasPrice, PRICE_UNAVAILABLE } from '@/utils/price';
 
 interface OfferCardProps {
   offer: StoreOffer;
@@ -26,8 +27,10 @@ export const OfferCard: React.FC<OfferCardProps> = ({ offer, slotIndex = 0 }) =>
   const skin = offer.skin;
   const isFav = isFavorite(skin.uuid);
   const isWish = isInWishlist(skin.uuid);
-  const canAfford = preferences.vpBalance >= (offer.price ?? 0);
-  const vpDiff = (offer.price ?? 0) - preferences.vpBalance;
+  const price = offer.price;
+  const priceKnown = hasPrice(price);
+  const canAfford = priceKnown && preferences.vpBalance >= price;
+  const vpDiff = priceKnown ? price - preferences.vpBalance : 0;
 
   const tier = skin.tier;
   const tierColor = tier.color || '#5A9FE2';
@@ -165,13 +168,13 @@ export const OfferCard: React.FC<OfferCardProps> = ({ offer, slotIndex = 0 }) =>
           <div className="flex items-center gap-1.5">
             <VpIcon size={18} />
             <span className="font-mono font-bold text-base text-white">
-              {(offer.price ?? 0).toLocaleString()}
+              {hasPrice(offer.price) ? offer.price.toLocaleString() : PRICE_UNAVAILABLE}
             </span>
-            <span className="text-[10px] font-mono text-[#6A7885]">VP</span>
+            {hasPrice(offer.price) && <span className="text-[10px] font-mono text-[#6A7885]">VP</span>}
           </div>
 
           <div className="text-right">
-            {canAfford ? (
+            {!priceKnown ? null : canAfford ? (
               <span className="flex items-center gap-1 text-[10px] font-mono text-[#00F5D4] bg-[#0E2625] px-1.5 py-0.5 border border-[#00F5D4]/30">
                 <CheckCircle2 className="w-3 h-3" />
                 AFFORDABLE

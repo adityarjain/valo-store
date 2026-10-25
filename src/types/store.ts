@@ -29,6 +29,8 @@ export interface SkinLevel {
   streamedVideo: string | null;
 }
 
+// 'verified' is reserved for a price read from an authoritative source. No such source exists
+// today (valorant-api.com serves cosmetic metadata only), so nothing may be assigned 'verified'.
 export type PriceStatus = 'verified' | 'estimated' | 'unpriced';
 
 export interface Skin {
@@ -82,9 +84,10 @@ export interface FeaturedBundle {
   uuid: string;
   displayName: string;
   description: string;
-  price: number;
-  basePrice: number;
-  discountPercent: number;
+  // null when any bundled item has no known price (a partial sum would be a false price)
+  price: number | null;
+  basePrice: number | null;
+  discountPercent: number | null;
   displayIcon: string;
   items: StoreOffer[];
   expiresAt: string;

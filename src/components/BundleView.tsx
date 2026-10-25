@@ -6,6 +6,7 @@ import { useStore } from '@/context/StoreContext';
 import { VpIcon } from './VpIcon';
 import { Clock, Eye, Gift, Star, Heart } from 'lucide-react';
 import { playSound } from '@/utils/audio';
+import { hasPrice, PRICE_UNAVAILABLE } from '@/utils/price';
 
 export const BundleView: React.FC = () => {
   const { bundle, loading, setInspectSkin, preferences, toggleFavorite, toggleWishlist, isFavorite, isInWishlist } = useStore();
@@ -21,7 +22,7 @@ export const BundleView: React.FC = () => {
     );
   }
 
-  const savingsVp = bundle.basePrice - bundle.price;
+  const savingsVp = hasPrice(bundle.basePrice) && hasPrice(bundle.price) ? bundle.basePrice - bundle.price : null;
 
   return (
     <div className="flex flex-col gap-8">
@@ -56,12 +57,12 @@ export const BundleView: React.FC = () => {
               <div className="flex items-center gap-2">
                 <VpIcon size={26} />
                 <span className="text-2xl sm:text-3xl font-mono font-black text-white">
-                  {bundle.price.toLocaleString()}
+                  {hasPrice(bundle.price) ? bundle.price.toLocaleString() : PRICE_UNAVAILABLE}
                 </span>
-                <span className="text-xs font-mono text-[#6A7885]">VP</span>
+                {hasPrice(bundle.price) && <span className="text-xs font-mono text-[#6A7885]">VP</span>}
               </div>
 
-              {bundle.discountPercent > 0 && (
+              {hasPrice(bundle.basePrice) && hasPrice(savingsVp) && hasPrice(bundle.discountPercent) && bundle.discountPercent > 0 && (
                 <div className="flex items-center gap-2">
                   <span className="text-sm font-mono line-through text-[#6A7885]">
                     {bundle.basePrice.toLocaleString()} VP
@@ -162,7 +163,7 @@ export const BundleView: React.FC = () => {
                     <div className="flex items-center gap-1">
                       <VpIcon size={14} />
                       <span className="font-mono text-xs text-white font-bold">
-                        {(item.price ?? 0).toLocaleString()}
+                        {hasPrice(item.price) ? item.price.toLocaleString() : PRICE_UNAVAILABLE}
                       </span>
                     </div>
                     <button

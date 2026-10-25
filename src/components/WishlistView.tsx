@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useStore } from '@/context/StoreContext';
 import { VpIcon } from './VpIcon';
+import { hasPrice, sumKnown, PRICE_UNAVAILABLE } from '@/utils/price';
 import {
   Heart,
   Trash2,
@@ -36,9 +37,12 @@ export const WishlistView: React.FC = () => {
   const wishlistedSkins = catalog.filter((skin) => preferences.wishlist.includes(skin.uuid));
   const ownedSkins = catalog.filter((skin) => preferences.owned.includes(skin.uuid));
 
-  const totalWishlistVp = wishlistedSkins.reduce((acc, s) => acc + (s.defaultPrice ?? 0), 0);
+  // Skins with an unknown price are left out of the totals (and reported), never counted as 0 VP.
+  const { total: totalWishlistVp, unknown: unpricedWishlistCount } = sumKnown(
+    wishlistedSkins.map((s) => s.defaultPrice)
+  );
   const shortfallVp = Math.max(0, totalWishlistVp - preferences.vpBalance);
-  const canAffordAll = preferences.vpBalance >= totalWishlistVp;
+  const canAffordAll = preferences.vpBalance >= totalWishlistVp && unpricedWishlistCount === 0;
 
   // Check if any wishlisted skin is currently in daily store
   const storeSkinUuids = (dailyStore?.offers || []).map((o) => o.skin.uuid);
@@ -121,6 +125,11 @@ export const WishlistView: React.FC = () => {
               <span className="font-mono font-bold text-xl text-white">
                 {totalWishlistVp.toLocaleString()} VP
               </span>
+              {unpricedWishlistCount > 0 && (
+                <span className="text-[10px] font-mono text-[#FAD663]">
+                  +{unpricedWishlistCount} unpriced, not counted
+                </span>
+              )}
             </div>
           </div>
 
@@ -144,6 +153,10 @@ export const WishlistView: React.FC = () => {
               {canAffordAll ? (
                 <span className="text-[#00F5D4] font-bold">
                   ✓ YOU CAN AFFORD ALL {wishlistedSkins.length} ITEMS
+                </span>
+              ) : shortfallVp === 0 ? (
+                <span className="text-[#FAD663] font-bold">
+                  PRICE UNKNOWN FOR {unpricedWishlistCount} ITEM{unpricedWishlistCount === 1 ? '' : 'S'}
                 </span>
               ) : (
                 <span className="text-[#FF8591] font-bold">
@@ -287,7 +300,7 @@ export const WishlistView: React.FC = () => {
                     <div className="flex items-center gap-1">
                       <VpIcon size={14} />
                       <span className="font-mono text-xs text-white font-bold">
-                        {(skin.defaultPrice ?? 0).toLocaleString()} VP
+                        {hasPrice(skin.defaultPrice) ? `${skin.defaultPrice.toLocaleString()} VP` : PRICE_UNAVAILABLE}
                       </span>
                     </div>
 

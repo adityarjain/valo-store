@@ -6,6 +6,7 @@ import { OfferCard } from './OfferCard';
 import { CountdownTimer } from './CountdownTimer';
 import { NightMarketSection } from './NightMarketSection';
 import { VpIcon } from './VpIcon';
+import { hasPrice, sumKnown } from '@/utils/price';
 import {
   RotateCcw,
   Sparkles,
@@ -87,8 +88,10 @@ export const DailyStoreView: React.FC = () => {
   }
 
   const offers = dailyStore?.offers || [];
-  const totalStoreVp = offers.reduce((acc, off) => acc + (off.price ?? 0), 0);
-  const affordableOffersCount = offers.filter((off) => preferences.vpBalance >= (off.price ?? 0)).length;
+  const { total: totalStoreVp, unknown: unpricedOffers } = sumKnown(offers.map((off) => off.price));
+  const affordableOffersCount = offers.filter(
+    (off) => hasPrice(off.price) && preferences.vpBalance >= off.price
+  ).length;
 
   // Check if any daily offer is on the user's wishlist
   const wishlistHits = offers.filter((off) => preferences.wishlist.includes(off.skin.uuid));
@@ -178,6 +181,7 @@ export const DailyStoreView: React.FC = () => {
               <VpIcon size={16} />
               <span className="font-mono font-bold text-white text-base">
                 {totalStoreVp.toLocaleString()} VP
+                {unpricedOffers > 0 && ` + ${unpricedOffers} unpriced`}
               </span>
             </div>
           </div>

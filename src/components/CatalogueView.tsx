@@ -19,6 +19,9 @@ import {
   ExternalLink,
 } from 'lucide-react';
 import { playSound } from '@/utils/audio';
+import { hasPrice, comparePrice, PRICE_UNAVAILABLE } from '@/utils/price';
+
+const MAX_PRICE = 6000; // slider maximum; at this value the price filter is effectively off
 
 export const CatalogueView: React.FC = () => {
   const {
@@ -41,7 +44,7 @@ export const CatalogueView: React.FC = () => {
   const [onlyFavorites, setOnlyFavorites] = useState(false);
   const [onlyWishlist, setOnlyWishlist] = useState(false);
   const [onlyOwned, setOnlyOwned] = useState(false);
-  const [maxPriceFilter, setMaxPriceFilter] = useState<number>(6000);
+  const [maxPriceFilter, setMaxPriceFilter] = useState<number>(MAX_PRICE);
   const [sortBy, setSortBy] = useState<'name-asc' | 'price-asc' | 'price-desc' | 'tier-desc'>('tier-desc');
   const [displayLimit, setDisplayLimit] = useState(24);
 
@@ -94,8 +97,9 @@ export const CatalogueView: React.FC = () => {
         return false;
       }
 
-      // Max price
-      if ((skin.defaultPrice ?? 0) > maxPriceFilter) {
+      // Max price. Unknown prices can't be compared, so they only show while the slider is
+      // at its maximum (filter off) and are hidden once it narrows the range.
+      if (hasPrice(skin.defaultPrice) ? skin.defaultPrice > maxPriceFilter : maxPriceFilter < MAX_PRICE) {
         return false;
       }
 
@@ -120,10 +124,10 @@ export const CatalogueView: React.FC = () => {
         return a.displayName.localeCompare(b.displayName);
       }
       if (sortBy === 'price-asc') {
-        return (a.defaultPrice ?? 0) - (b.defaultPrice ?? 0);
+        return comparePrice(a.defaultPrice, b.defaultPrice);
       }
       if (sortBy === 'price-desc') {
-        return (b.defaultPrice ?? 0) - (a.defaultPrice ?? 0);
+        return comparePrice(a.defaultPrice, b.defaultPrice, -1);
       }
       if (sortBy === 'tier-desc') {
         return (b.tier.basePrice || 0) - (a.tier.basePrice || 0);
@@ -154,7 +158,7 @@ export const CatalogueView: React.FC = () => {
     setSelectedCategory('All');
     setSelectedCollection('All');
     setSelectedTier('All');
-    setMaxPriceFilter(6000);
+    setMaxPriceFilter(MAX_PRICE);
     setOnlyFavorites(false);
     setOnlyWishlist(false);
     setOnlyOwned(false);
@@ -368,7 +372,7 @@ export const CatalogueView: React.FC = () => {
           {(selectedCategory !== 'All' ||
             selectedCollection !== 'All' ||
             selectedTier !== 'All' ||
-            maxPriceFilter < 6000 ||
+            maxPriceFilter < MAX_PRICE ||
             onlyFavorites ||
             onlyWishlist ||
             onlyOwned ||
@@ -492,7 +496,7 @@ export const CatalogueView: React.FC = () => {
                     <div className="flex items-center gap-1">
                       <VpIcon size={14} />
                       <span className="font-mono text-xs text-white font-bold">
-                        {(skin.defaultPrice ?? 0).toLocaleString()}
+                        {hasPrice(skin.defaultPrice) ? skin.defaultPrice.toLocaleString() : PRICE_UNAVAILABLE}
                       </span>
                     </div>
 
