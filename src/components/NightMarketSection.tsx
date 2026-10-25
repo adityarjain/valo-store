@@ -131,7 +131,7 @@ export const NightMarketSection: React.FC = () => {
                   <div
                     onClick={(e) => {
                       e.stopPropagation();
-                      setInspectSkin(skin);
+                      setInspectSkin(skin, item.discountedPrice);
                     }}
                     className="relative h-28 my-2 flex items-center justify-center cursor-pointer group/art"
                   >
@@ -180,7 +180,7 @@ export const NightMarketSection: React.FC = () => {
                     <button
                       onClick={(e) => {
                         e.stopPropagation();
-                        setInspectSkin(skin);
+                        setInspectSkin(skin, item.discountedPrice);
                       }}
                       className="mt-1 w-full py-1 bg-[#152332] hover:bg-[#FF4655] hover:text-black text-white text-[10px] font-mono font-bold uppercase tracking-wider transition-colors flex items-center justify-center gap-1"
                     >

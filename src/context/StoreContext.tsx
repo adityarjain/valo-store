@@ -41,7 +41,8 @@ interface StoreContextType {
   rerollSimulation: () => Promise<void>;
   refreshStore: () => Promise<void>;
   inspectSkin: Skin | null;
-  setInspectSkin: (skin: Skin | null) => void;
+  inspectPrice?: number;
+  setInspectSkin: (skin: Skin | null, price?: number) => void;
   securityModalOpen: boolean;
   setSecurityModalOpen: (open: boolean) => void;
   simulationOffset: number;
@@ -73,6 +74,7 @@ export function StoreContextProvider({ children }: { children: React.ReactNode }
   const [catalogLoading, setCatalogLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
   const [inspectSkin, setInspectSkinState] = useState<Skin | null>(null);
+  const [inspectPrice, setInspectPrice] = useState<number | undefined>(undefined);
   const [securityModalOpen, setSecurityModalOpen] = useState<boolean>(false);
   const [simulationOffset, setSimulationOffset] = useState<number>(0);
 
@@ -318,13 +320,14 @@ export function StoreContextProvider({ children }: { children: React.ReactNode }
     setPreferences((prev) => ({ ...prev, activeTab }));
   };
 
-  const setInspectSkin = (skin: Skin | null) => {
+  const setInspectSkin = (skin: Skin | null, price?: number) => {
     if (skin) {
       playSound.inspect(preferences.soundEffects);
     } else {
       playSound.click(preferences.soundEffects);
     }
     setInspectSkinState(skin);
+    setInspectPrice(skin ? price : undefined);
   };
 
   return (
@@ -357,6 +360,7 @@ export function StoreContextProvider({ children }: { children: React.ReactNode }
         rerollSimulation,
         refreshStore,
         inspectSkin,
+        inspectPrice,
         setInspectSkin,
         securityModalOpen,
         setSecurityModalOpen,

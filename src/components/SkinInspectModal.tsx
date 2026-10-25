@@ -10,10 +10,11 @@ import { playSound } from '@/utils/audio';
 
 interface InspectContentProps {
   skin: Skin;
+  price?: number;
   onClose: () => void;
 }
 
-const SkinInspectModalContent: React.FC<InspectContentProps> = ({ skin, onClose }) => {
+const SkinInspectModalContent: React.FC<InspectContentProps> = ({ skin, price, onClose }) => {
   const { preferences, toggleFavorite, toggleWishlist, isFavorite, isInWishlist } = useStore();
 
   const [selectedChromaIndex, setSelectedChromaIndex] = useState<number>(0);
@@ -271,7 +272,7 @@ const SkinInspectModalContent: React.FC<InspectContentProps> = ({ skin, onClose 
           <div className="flex flex-col">
             <span className="text-[10px] font-mono text-[#6E7E8F] uppercase">OFFER PRICE</span>
             <span className="font-mono font-bold text-lg text-white">
-              {(skin.defaultPrice ?? 0).toLocaleString()} VP
+              {(price ?? skin.defaultPrice ?? 0).toLocaleString()} VP
             </span>
           </div>
         </div>
@@ -302,7 +303,7 @@ const SkinInspectModalContent: React.FC<InspectContentProps> = ({ skin, onClose 
 };
 
 export const SkinInspectModal: React.FC = () => {
-  const { inspectSkin, setInspectSkin } = useStore();
+  const { inspectSkin, inspectPrice, setInspectSkin } = useStore();
 
   if (!inspectSkin) return null;
 
@@ -311,6 +312,7 @@ export const SkinInspectModal: React.FC = () => {
       <SkinInspectModalContent
         key={inspectSkin.uuid}
         skin={inspectSkin}
+        price={inspectPrice}
         onClose={() => setInspectSkin(null)}
       />
     </div>
