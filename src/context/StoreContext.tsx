@@ -77,31 +77,30 @@ export function StoreContextProvider({ children }: { children: React.ReactNode }
   const [simulationOffset, setSimulationOffset] = useState<number>(0);
 
   // Local-only preferences persisted to localStorage
-  const [preferences, setPreferences] = useState<UserPreferences>(() => {
-    if (typeof window !== 'undefined') {
-      try {
-        const saved = localStorage.getItem('valo_store_prefs_v2');
-        if (saved) {
-          const parsed = JSON.parse(saved);
-          return { ...DEFAULT_PREFERENCES, ...parsed };
-        }
-      } catch (err) {
-        console.error('Failed to read preferences from localStorage:', err);
-      }
-    }
-    return DEFAULT_PREFERENCES;
-  });
+  // Start from defaults so SSR and first client render match; load saved prefs after mount.
+  const [preferences, setPreferences] = useState<UserPreferences>(DEFAULT_PREFERENCES);
+  const [prefsLoaded, setPrefsLoaded] = useState(false);
 
-  // Save preferences changes to localStorage
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      try {
-        localStorage.setItem('valo_store_prefs_v2', JSON.stringify(preferences));
-      } catch (err) {
-        console.error('Failed to save preferences to localStorage:', err);
-      }
+    try {
+      const saved = localStorage.getItem('valo_store_prefs_v2');
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      if (saved) setPreferences({ ...DEFAULT_PREFERENCES, ...JSON.parse(saved) });
+    } catch (err) {
+      console.error('Failed to read preferences from localStorage:', err);
     }
-  }, [preferences]);
+    setPrefsLoaded(true);
+  }, []);
+
+  // Save preferences changes to localStorage (only after the saved ones were loaded)
+  useEffect(() => {
+    if (!prefsLoaded) return;
+    try {
+      localStorage.setItem('valo_store_prefs_v2', JSON.stringify(preferences));
+    } catch (err) {
+      console.error('Failed to save preferences to localStorage:', err);
+    }
+  }, [preferences, prefsLoaded]);
 
   const provider = useMemo(() => getStoreProvider(providerId), [providerId]);
 
