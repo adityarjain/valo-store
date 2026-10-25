@@ -18,12 +18,16 @@ export const CURATED_SKINS: Skin[] = (rawSkins as RawSkinItem[]).map((raw) => {
   const tier = getTierFromUuid(raw.contentTierUuid);
 
   // Calculate authentic Valorant Point (VP) price based on tier & melee vs weapon
-  let defaultPrice = tier.basePrice;
-  if (weaponType === 'Melee') {
+  // These are tier-bracket estimates plus community-documented overrides, not Riot store prices.
+  // A tier with no price bracket (Standard) stays null instead of becoming 0 VP.
+  let defaultPrice: number | null = tier.basePrice > 0 ? tier.basePrice : null;
+  if (defaultPrice !== null && weaponType === 'Melee') {
     defaultPrice = tier.meleePrice || 3550;
   }
   // Specific known skin price overrides where applicable
-  if (raw.displayName.includes('Spectrum')) {
+  if (defaultPrice === null) {
+    // no purchase price, keep unknown
+  } else if (raw.displayName.includes('Spectrum')) {
     defaultPrice = weaponType === 'Melee' ? 5350 : 2675;
   } else if (raw.displayName.includes('Radiant Entertainment System')) {
     defaultPrice = weaponType === 'Melee' ? 5900 : 2975;
@@ -56,7 +60,11 @@ export const CURATED_SKINS: Skin[] = (rawSkins as RawSkinItem[]).map((raw) => {
     chromas: raw.chromas || [],
     levels: raw.levels || [],
     defaultPrice,
-    priceStatus: 'verified' as const,
+    priceStatus: defaultPrice !== null ? ('estimated' as const) : ('unpriced' as const),
+    priceNote:
+      defaultPrice !== null
+        ? 'Estimated from the tier price bracket; not a Riot store price.'
+        : 'No known purchase price.',
   };
 });
 

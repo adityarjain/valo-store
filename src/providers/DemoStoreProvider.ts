@@ -12,6 +12,7 @@ import {
 import { CURATED_SKINS } from '@/data/curatedSkins';
 import { fetchAllSkins } from '@/services/valorantApi';
 import { createRng, stringToSeed, getNextUtcMidnight } from '@/utils/seedRandom';
+import { hasPrice, comparePrice, sumKnown } from '@/utils/price';
 
 export class DemoStoreProvider implements StoreProvider {
   id = 'demo';
@@ -58,7 +59,7 @@ export class DemoStoreProvider implements StoreProvider {
 
     // Filter candidate skins that have displayIcon and tier
     const eligibleSkins = allSkins.filter(
-      (s) => s.displayIcon && s.tier.name !== 'Standard' && (s.defaultPrice ?? 0) > 0
+      (s) => s.displayIcon && s.tier.name !== 'Standard' && hasPrice(s.defaultPrice) && s.defaultPrice > 0
     );
 
     // Create seed based on rotationDate + offset
@@ -125,9 +126,12 @@ export class DemoStoreProvider implements StoreProvider {
     const kuronamiSkins = allSkins.filter((s) => s.displayName.toLowerCase().includes('kuronami'));
     const bundleItems: Skin[] = kuronamiSkins.length >= 3 ? kuronamiSkins : CURATED_SKINS.slice(0, 5);
 
-    const basePrice = bundleItems.reduce((acc, s) => acc + (s.defaultPrice ?? 0), 0);
-    const bundlePrice = Math.round(basePrice * 0.67);
-    const discountPercent = Math.round(((basePrice - bundlePrice) / basePrice) * 100);
+    // If any item has an unknown price the bundle total is unknown, never a partial sum.
+    const { total, unknown } = sumKnown(bundleItems.map((s) => s.defaultPrice));
+    const basePrice = unknown === 0 && total > 0 ? total : null;
+    const bundlePrice = basePrice === null ? null : Math.round(basePrice * 0.67);
+    const discountPercent =
+      basePrice === null || bundlePrice === null ? null : Math.round(((basePrice - bundlePrice) / basePrice) * 100);
 
     const expiresDate = new Date(Date.now() + 11 * 86400 * 1000);
 
@@ -178,7 +182,8 @@ export class DemoStoreProvider implements StoreProvider {
       (s): s is typeof s & { defaultPrice: number } =>
         !!s.displayIcon &&
         ['Select', 'Deluxe', 'Premium'].includes(s.tier.name) &&
-        (s.defaultPrice ?? 0) > 0
+        hasPrice(s.defaultPrice) &&
+        s.defaultPrice > 0
     );
 
     const seedString = `store_nightmarket_${timing.rotationDate}_offset_${this.simulationSeedOffset}`;
@@ -197,7 +202,7 @@ export class DemoStoreProvider implements StoreProvider {
     const offers: NightMarketOffer[] = selected.map((skin, idx) => {
       const discountIdx = Math.floor(rng() * discountPool.length);
       const discountPercent = discountPool[discountIdx];
-      const originalPrice = skin.defaultPrice ?? 0;
+      const originalPrice = skin.defaultPrice; // eligibleSkins only contains priced skins
       const discountedPrice = Math.round(originalPrice * (1 - discountPercent / 100));
 
       return {
@@ -266,10 +271,11 @@ export class DemoStoreProvider implements StoreProvider {
 
     // Min / Max Price
     if (typeof filters?.minPrice === 'number') {
-      filtered = filtered.filter((s) => (s.defaultPrice ?? 0) >= filters.minPrice!);
+      // Unknown prices can't satisfy a price bound, so they are excluded rather than treated as 0.
+      filtered = filtered.filter((s) => hasPrice(s.defaultPrice) && s.defaultPrice >= filters.minPrice!);
     }
     if (typeof filters?.maxPrice === 'number') {
-      filtered = filtered.filter((s) => (s.defaultPrice ?? 0) <= filters.maxPrice!);
+      filtered = filtered.filter((s) => hasPrice(s.defaultPrice) && s.defaultPrice <= filters.maxPrice!);
     }
 
     // Sorting
@@ -282,10 +288,10 @@ export class DemoStoreProvider implements StoreProvider {
           filtered.sort((a, b) => b.displayName.localeCompare(a.displayName));
           break;
         case 'price-asc':
-          filtered.sort((a, b) => (a.defaultPrice ?? 0) - (b.defaultPrice ?? 0));
+          filtered.sort((a, b) => comparePrice(a.defaultPrice, b.defaultPrice));
           break;
         case 'price-desc':
-          filtered.sort((a, b) => (b.defaultPrice ?? 0) - (a.defaultPrice ?? 0));
+          filtered.sort((a, b) => comparePrice(a.defaultPrice, b.defaultPrice, -1));
           break;
         case 'tier-desc':
           filtered.sort((a, b) => (b.tier.basePrice || 0) - (a.tier.basePrice || 0));

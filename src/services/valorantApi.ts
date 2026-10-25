@@ -40,7 +40,7 @@ export async function fetchAllSkins(): Promise<Skin[]> {
   // Try to load cached skins from localStorage in browser
   if (typeof window !== 'undefined') {
     try {
-      const stored = localStorage.getItem('valo_skins_cache_v2');
+      const stored = localStorage.getItem('valo_skins_cache_v3');
       if (stored) {
         const parsed = JSON.parse(stored);
         if (Array.isArray(parsed) && parsed.length > 50) {
@@ -155,6 +155,10 @@ export async function fetchAllSkins(): Promise<Skin[]> {
           levels,
           defaultPrice,
           priceStatus,
+          priceNote:
+            priceStatus === 'estimated'
+              ? 'Estimated from the tier price bracket; not a Riot store price.'
+              : 'No known purchase price.',
           themeUuid: raw.themeUuid,
         };
       });
@@ -163,7 +167,7 @@ export async function fetchAllSkins(): Promise<Skin[]> {
       cachedSkins = parsedSkins;
       if (typeof window !== 'undefined') {
         try {
-          localStorage.setItem('valo_skins_cache_v2', JSON.stringify(parsedSkins));
+          localStorage.setItem('valo_skins_cache_v3', JSON.stringify(parsedSkins));
         } catch {
           // localStorage might be full or quota exceeded, ignore safely
         }

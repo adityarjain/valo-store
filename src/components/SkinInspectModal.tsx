@@ -7,6 +7,7 @@ import { Chroma, SkinLevel, Skin } from '@/types/store';
 import { VpIcon } from './VpIcon';
 import { X, Star, Heart, Film, Play, Layers, Sparkles } from 'lucide-react';
 import { playSound } from '@/utils/audio';
+import { hasPrice, PRICE_UNAVAILABLE } from '@/utils/price';
 
 interface InspectContentProps {
   skin: Skin;
@@ -272,7 +273,9 @@ const SkinInspectModalContent: React.FC<InspectContentProps> = ({ skin, price, o
           <div className="flex flex-col">
             <span className="text-[10px] font-mono text-[#6E7E8F] uppercase">OFFER PRICE</span>
             <span className="font-mono font-bold text-lg text-white">
-              {(price ?? skin.defaultPrice ?? 0).toLocaleString()} VP
+              {hasPrice(price ?? skin.defaultPrice)
+                ? `${(price ?? skin.defaultPrice)!.toLocaleString()} VP`
+                : PRICE_UNAVAILABLE}
             </span>
           </div>
         </div>

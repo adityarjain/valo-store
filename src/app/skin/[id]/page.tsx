@@ -21,6 +21,7 @@ import {
   ShieldCheck,
 } from 'lucide-react';
 import { playSound } from '@/utils/audio';
+import { hasPrice, PRICE_UNAVAILABLE } from '@/utils/price';
 
 function SkinDetailPageContent() {
   const params = useParams();
@@ -259,7 +260,7 @@ function SkinDetailPageContent() {
               <div className="flex flex-col">
                 <span className="text-[10px] font-mono text-[#6E7E8F] uppercase">STANDARD PRICE</span>
                 <span className="font-mono font-black text-2xl text-white">
-                  {(skin.defaultPrice ?? 0).toLocaleString()} VP
+                  {hasPrice(skin.defaultPrice) ? `${skin.defaultPrice.toLocaleString()} VP` : PRICE_UNAVAILABLE}
                 </span>
               </div>
             </div>

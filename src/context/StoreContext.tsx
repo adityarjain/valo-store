@@ -291,7 +291,7 @@ export function StoreContextProvider({ children }: { children: React.ReactNode }
     if (typeof window !== 'undefined') {
       try {
         localStorage.removeItem('valo_store_prefs_v2');
-        localStorage.removeItem('valo_skins_cache_v2');
+        localStorage.removeItem('valo_skins_cache_v3');
       } catch {
         // ignore
       }
