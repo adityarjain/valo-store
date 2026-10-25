@@ -41,7 +41,8 @@ interface StoreContextType {
   rerollSimulation: () => Promise<void>;
   refreshStore: () => Promise<void>;
   inspectSkin: Skin | null;
-  setInspectSkin: (skin: Skin | null) => void;
+  inspectPrice?: number;
+  setInspectSkin: (skin: Skin | null, price?: number) => void;
   securityModalOpen: boolean;
   setSecurityModalOpen: (open: boolean) => void;
   simulationOffset: number;
@@ -73,35 +74,35 @@ export function StoreContextProvider({ children }: { children: React.ReactNode }
   const [catalogLoading, setCatalogLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
   const [inspectSkin, setInspectSkinState] = useState<Skin | null>(null);
+  const [inspectPrice, setInspectPrice] = useState<number | undefined>(undefined);
   const [securityModalOpen, setSecurityModalOpen] = useState<boolean>(false);
   const [simulationOffset, setSimulationOffset] = useState<number>(0);
 
   // Local-only preferences persisted to localStorage
-  const [preferences, setPreferences] = useState<UserPreferences>(() => {
-    if (typeof window !== 'undefined') {
-      try {
-        const saved = localStorage.getItem('valo_store_prefs_v2');
-        if (saved) {
-          const parsed = JSON.parse(saved);
-          return { ...DEFAULT_PREFERENCES, ...parsed };
-        }
-      } catch (err) {
-        console.error('Failed to read preferences from localStorage:', err);
-      }
-    }
-    return DEFAULT_PREFERENCES;
-  });
+  // Start from defaults so SSR and first client render match; load saved prefs after mount.
+  const [preferences, setPreferences] = useState<UserPreferences>(DEFAULT_PREFERENCES);
+  const [prefsLoaded, setPrefsLoaded] = useState(false);
 
-  // Save preferences changes to localStorage
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      try {
-        localStorage.setItem('valo_store_prefs_v2', JSON.stringify(preferences));
-      } catch (err) {
-        console.error('Failed to save preferences to localStorage:', err);
-      }
+    try {
+      const saved = localStorage.getItem('valo_store_prefs_v2');
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      if (saved) setPreferences({ ...DEFAULT_PREFERENCES, ...JSON.parse(saved) });
+    } catch (err) {
+      console.error('Failed to read preferences from localStorage:', err);
     }
-  }, [preferences]);
+    setPrefsLoaded(true);
+  }, []);
+
+  // Save preferences changes to localStorage (only after the saved ones were loaded)
+  useEffect(() => {
+    if (!prefsLoaded) return;
+    try {
+      localStorage.setItem('valo_store_prefs_v2', JSON.stringify(preferences));
+    } catch (err) {
+      console.error('Failed to save preferences to localStorage:', err);
+    }
+  }, [preferences, prefsLoaded]);
 
   const provider = useMemo(() => getStoreProvider(providerId), [providerId]);
 
@@ -319,13 +320,14 @@ export function StoreContextProvider({ children }: { children: React.ReactNode }
     setPreferences((prev) => ({ ...prev, activeTab }));
   };
 
-  const setInspectSkin = (skin: Skin | null) => {
+  const setInspectSkin = (skin: Skin | null, price?: number) => {
     if (skin) {
       playSound.inspect(preferences.soundEffects);
     } else {
       playSound.click(preferences.soundEffects);
     }
     setInspectSkinState(skin);
+    setInspectPrice(skin ? price : undefined);
   };
 
   return (
@@ -358,6 +360,7 @@ export function StoreContextProvider({ children }: { children: React.ReactNode }
         rerollSimulation,
         refreshStore,
         inspectSkin,
+        inspectPrice,
         setInspectSkin,
         securityModalOpen,
         setSecurityModalOpen,

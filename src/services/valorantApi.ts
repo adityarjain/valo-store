@@ -154,7 +154,7 @@ export async function fetchAllSkins(): Promise<Skin[]> {
           chromas,
           levels,
           defaultPrice,
-          priceStatus: 'verified' as const,
+          priceStatus,
           themeUuid: raw.themeUuid,
         };
       });

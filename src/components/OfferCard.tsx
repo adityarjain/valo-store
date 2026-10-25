@@ -33,7 +33,7 @@ export const OfferCard: React.FC<OfferCardProps> = ({ offer, slotIndex = 0 }) =>
   const tierColor = tier.color || '#5A9FE2';
 
   const handleInspect = () => {
-    setInspectSkin(skin);
+    setInspectSkin(skin, offer.price ?? undefined);
   };
 
   return (
