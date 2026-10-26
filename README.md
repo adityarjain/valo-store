@@ -46,8 +46,8 @@ This application is engineered with non-negotiable security boundaries:
 | Security Rule | Implementation |
 | --- | --- |
 | **No Password Collection** | The app **never** asks for, inputs, or processes Riot passwords, usernames, or MFA codes. |
-| **No Cookie Scraping** | Does not extract browser cookies, session tokens (`ssid`), or client tokens. |
-| **No Private API Calls** | Does not invoke undocumented Riot client endpoints or automate purchases. |
+| **No Cookie Scraping** | Does not read browser cookies or `ssid`. Demo mode touches no Riot token at all. |
+| **Live mode is opt-in and unofficial** | Off by default. When enabled, the server reads an access token from your **local Riot Client** and makes **one read-only storefront request** to Riot. Never purchases. See [Live Mode](#live-mode-unofficial-opt-in). |
 | **Zero Telemetry** | No analytics, trackers, or remote credential brokers. |
 | **Localhost-Only Binding** | Development and start scripts are strictly bound to `127.0.0.1` (`-H 127.0.0.1`). |
 | **Local-Only Preferences** | Favourites, wishlist items, owned statuses, and wallet balance live solely in `localStorage`. |
@@ -71,7 +71,26 @@ Third-party mobile apps, Discord bots, and unofficial web services that display 
 ### Our Solution: Safe Modular Provider
 Instead of risking your account, this viewer uses a modular `StoreProvider` interface:
 - **`DemoStoreProvider` (Active)**: Generates a deterministic, simulated daily store rotation seeded by date, using real weapon skins and official rarity tiers, with **estimated** VP prices. It is not your actual store.
-- **`LiveStoreProvider` (Disabled)**: Safely reports an `unavailable` state with complete security context. If Riot Games ever provides an authorized OAuth2 storefront scope in the future, it can be integrated with zero UI rewrite.
+- **`LiveStoreProvider` (Opt-in, unofficial)**: Off unless you enable [Live Mode](#live-mode-unofficial-opt-in). Until then it reports `unavailable`. If Riot ever ships an authorized storefront scope, it can replace the local-client method with no UI rewrite.
+
+---
+
+## Live Mode (unofficial, opt-in)
+
+Shows your **real** daily store and Night Market without you logging in to the app. **Riot does not support this, and I can't promise it is ban-proof.** It uses an undocumented endpoint. Use it at your own risk.
+
+**How it works:** with the Riot Client running (the game need not be), the local server reads the access token from the client's local lockfile API and makes one read-only `storefront` request to Riot, then maps the result. Prices in live mode come from Riot's response and are marked verified.
+
+**What it never does:** ask for or store your password, read cookies, persist or log any token, send a token to the browser or any host other than Riot, call purchase endpoints, or accept requests from other machines. Results are cached for 5 minutes so Riot is not hit repeatedly. A test (`npm test`) fails if the live code references any other host or a purchase/login endpoint.
+
+**Enable it:** create `.env.local`:
+```bash
+VALO_LIVE=1
+VALO_SHARD=na   # na | eu | ap | kr  (latam/br use na)
+```
+then restart `npm run dev`, start the Riot Client, and click **Switch to Live Provider**. On macOS the lockfile is read from `~/Library/Application Support/Riot Games/Riot Client/Config/lockfile`; override with `VALO_RIOT_LOCKFILE`.
+
+**Caveats:** the response shape comes from community documentation and could not be tested against Riot while writing it. If Riot changes the endpoint it will show an error rather than wrong data. Featured bundles are not read in live mode.
 
 ---
 
@@ -107,7 +126,7 @@ valo-store-viewer/
 │   │   └── tierConstants.ts         # Rarity tiers, VP pricing rules, category & collection maps
 │   ├── providers/
 │   │   ├── DemoStoreProvider.ts     # Deterministic date-seeded store & Night Market rotation
-│   │   ├── LiveStoreProvider.ts     # Disabled provider documenting API limits
+│   │   ├── LiveStoreProvider.ts     # Opt-in live provider (calls /api/store)
 │   │   └── index.ts                 # Provider registry
 │   ├── services/
 │   │   └── valorantApi.ts           # Valorant-API.com client with caching

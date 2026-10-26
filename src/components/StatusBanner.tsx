@@ -5,9 +5,10 @@ import { useStore } from '@/context/StoreContext';
 import { ShieldCheck, ShieldAlert, ArrowRightLeft, Lock } from 'lucide-react';
 
 export const StatusBanner: React.FC = () => {
-  const { providerId, setProviderId, setSecurityModalOpen } = useStore();
+  const { providerId, setProviderId, setSecurityModalOpen, status } = useStore();
 
   const isDemo = providerId === 'demo';
+  const liveOk = !isDemo && status?.state === 'success';
 
   return (
     <div
@@ -24,6 +25,11 @@ export const StatusBanner: React.FC = () => {
               <ShieldCheck className="w-3.5 h-3.5 text-[#00F5D4]" />
               DEMO / SIMULATION
             </span>
+          ) : liveOk ? (
+            <span className="flex items-center gap-1.5 px-2 py-0.5 bg-[#3A2F12] text-[#FAD663] font-mono font-bold tracking-wider text-[11px] valo-clip-top-right border-l-2 border-[#FAD663]">
+              <ShieldAlert className="w-3.5 h-3.5 text-[#FAD663]" />
+              LIVE / UNOFFICIAL
+            </span>
           ) : (
             <span className="flex items-center gap-1.5 px-2 py-0.5 bg-[#4A171D] text-[#FF4655] font-mono font-bold tracking-wider text-[11px] valo-clip-top-right border-l-2 border-[#FF4655]">
               <ShieldAlert className="w-3.5 h-3.5 text-[#FF4655]" />
@@ -39,8 +45,8 @@ export const StatusBanner: React.FC = () => {
               </span>
             ) : (
               <span>
-                <strong className="text-white">Official Riot API Limitation:</strong> Personal daily
-                store endpoints are not exposed by Riot. Password & cookie scraping are strictly disabled.
+                <strong className="text-white">{liveOk ? 'Your real store.' : 'Live unavailable.'}</strong>{' '}
+                {status?.message} No password or cookies are used; Riot does not support this method.
               </span>
             )}
           </p>
