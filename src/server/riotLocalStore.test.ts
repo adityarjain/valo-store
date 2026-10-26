@@ -83,10 +83,14 @@ test('live-store code only references allowed hosts and no purchase/credential e
   for (const u of urls) {
     assert.match(
       u,
-      /^https:\/\/(pd\.\$\{shard\}\.a\.pvp\.net\/store\/v3\/storefront\/|valorant-api\.com\/)/,
+      /^https:\/\/(pd\.\$\{shard\}\.a\.pvp\.net\/store$|valorant-api\.com\/)/,
       `unexpected URL in live-store code: ${u}`
     );
   }
+  // under the storefront base, only the read-only v3/v2 storefront paths may be requested
+  const paths = [...code.matchAll(/\$\{base\}(\/[^`]*)`/g)].map((m) => m[1]);
+  assert.ok(paths.length > 0);
+  for (const p of paths) assert.match(p, /^\/v[23]\/storefront\/\$\{auth\.subject\}$/, `unexpected store path: ${p}`);
   // actual cookie/session handling or login/purchase endpoints (mentioning "cookies" in UI text is fine)
   assert.doesNotMatch(code, /\/store\/v1\/order|\/purchase|auth\.riotgames\.com|document\.cookie|set-cookie|['"`]cookie['"`]|\bssid\b/i);
 });

@@ -79,18 +79,24 @@ Instead of risking your account, this viewer uses a modular `StoreProvider` inte
 
 Shows your **real** daily store and Night Market without you logging in to the app. **Riot does not support this, and I can't promise it is ban-proof.** It uses an undocumented endpoint. Use it at your own risk.
 
-**How it works:** with the Riot Client running (the game need not be), the local server reads the access token from the client's local lockfile API and makes one read-only `storefront` request to Riot, then maps the result. Prices in live mode come from Riot's response and are marked verified.
+**How it works:** you log in to the **Riot Client as normal** (this app never sees your password). The local server then reads the logged-in account's access token from the client's local lockfile API and makes one read-only `storefront` request to Riot (v3, falling back to v2), then shows that account's store. The banner shows which account (`Name#TAG`). Prices in live mode come from Riot's response and are marked verified.
 
-**What it never does:** ask for or store your password, read cookies, persist or log any token, send a token to the browser or any host other than Riot, call purchase endpoints, or accept requests from other machines. Results are cached for 5 minutes so Riot is not hit repeatedly. A test (`npm test`) fails if the live code references any other host or a purchase/login endpoint.
+**Run it on the PC where you play.** VALORANT is Windows-only, so the Riot Client holding your VALORANT login is on your Windows machine. Clone this repo there and run it there. A Mac does not have a VALORANT session, and the client's local API is only reachable from the same machine.
+
+**Switching accounts:** log out and in with another account in the Riot Client, then press *Refresh State*. The server re-reads who is logged in on every request and caches per account, so it never shows one account's store for another. The store is cached up to 5 minutes (never past the rotation).
+
+**What it never does:** ask for or store your password, read cookies, persist or log any token, send a token to the browser or any host other than Riot, call purchase endpoints, or accept requests from other machines. A test (`npm test`) fails if the live code references any other host or a purchase/login endpoint.
 
 **Enable it:** create `.env.local`:
 ```bash
 VALO_LIVE=1
-VALO_SHARD=na   # na | eu | ap | kr  (latam/br use na)
+VALO_SHARD=na   # na | eu | ap | kr  (latam/br use na) - must match where your account was created
 ```
-then restart `npm run dev`, start the Riot Client, and click **Switch to Live Provider**. On macOS the lockfile is read from `~/Library/Application Support/Riot Games/Riot Client/Config/lockfile`; override with `VALO_RIOT_LOCKFILE`.
+then restart `npm run dev`, log in to the Riot Client, and click **Switch to Live Provider**. The lockfile is read from `%LOCALAPPDATA%\Riot Games\Riot Client\Config\lockfile` on Windows (macOS: `~/Library/Application Support/Riot Games/Riot Client/Config/lockfile`); override with `VALO_RIOT_LOCKFILE`.
 
-**Caveats:** the response shape comes from community documentation and could not be tested against Riot while writing it. If Riot changes the endpoint it will show an error rather than wrong data. Featured bundles are not read in live mode.
+**If it shows an error:** *lockfile not found* means the Riot Client isn't running; if it is running but the token is empty, launch VALORANT once (community docs say the token is available while the game runs). A *token rejected* error means re-login or a wrong `VALO_SHARD`.
+
+**Caveats:** the whole flow (lockfile, local auth, v3 call, v2 fallback, mapping, errors) is covered by tests against a *fake* Riot Client and storefront, but it has **not been run against real Riot servers**. If Riot changes the endpoint it will show an error rather than wrong data. Featured bundles are not read in live mode.
 
 ---
 

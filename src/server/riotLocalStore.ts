@@ -30,6 +30,7 @@ interface RawOffer {
 }
 export interface RawStorefront {
   SkinsPanelLayout?: {
+    SingleItemOffers?: string[];
     SingleItemStoreOffers?: RawOffer[];
     SingleItemOffersRemainingDurationInSeconds?: number;
   };
@@ -42,6 +43,8 @@ export interface RawStorefront {
 export interface LiveStore {
   daily: DailyStoreResult;
   nightMarket: NightMarketOffer[];
+  /** "Name#TAG" of the account the store belongs to */
+  account?: string;
 }
 
 const VP_CURRENCY_ID = '85ad13f7-3d1b-5128-9eb2-7cd8ee0b5741';
@@ -111,7 +114,12 @@ export function mapStorefront(raw: RawStorefront, skins: Skin[], now = new Date(
   const byLevel = new Map<string, Skin>();
   for (const s of skins) for (const l of s.levels) byLevel.set(l.uuid, s);
 
-  const dailyRaw = raw.SkinsPanelLayout?.SingleItemStoreOffers ?? [];
+  // Prefer the priced offers; if only the bare level-id list is present, show them with unknown
+  // (null) prices rather than dropping the offers.
+  const pricedRaw = raw.SkinsPanelLayout?.SingleItemStoreOffers;
+  const dailyRaw: RawOffer[] = pricedRaw?.length
+    ? pricedRaw
+    : (raw.SkinsPanelLayout?.SingleItemOffers ?? []).map((id) => ({ Rewards: [{ ItemID: id }] }));
   const remaining = raw.SkinsPanelLayout?.SingleItemOffersRemainingDurationInSeconds ?? 0;
 
   const offers: StoreOffer[] = [];
@@ -158,40 +166,91 @@ export function mapStorefront(raw: RawStorefront, skins: Skin[], now = new Date(
   };
 }
 
-export async function fetchLiveStore(skins: Skin[]): Promise<LiveStore> {
+export interface LocalAuth {
+  accessToken: string;
+  token: string;
+  /** the account's PUUID */
+  subject: string;
+  /** "Name#TAG" of the account logged in to the Riot Client, if available */
+  account?: string;
+}
+
+/** Reads the logged-in account's token from the local Riot Client. Called on every request so a
+ * switched account is noticed immediately. */
+export async function readLocalAuth(): Promise<LocalAuth> {
+  let lock: Lockfile;
+  try {
+    lock = parseLockfile(fs.readFileSync(/*turbopackIgnore: true*/ lockfilePath(), 'utf8'));
+  } catch {
+    throw new Error(
+      'Riot Client lockfile not found. Log in to the Riot Client on this PC (if it still fails, launch VALORANT).'
+    );
+  }
+
+  let auth: Omit<LocalAuth, 'account'>;
+  try {
+    auth = await localGet<Omit<LocalAuth, 'account'>>(lock, '/entitlements/v1/token');
+  } catch (err) {
+    throw new Error(
+      `${err instanceof Error ? err.message : 'Local Riot Client error.'} Make sure you are logged in to the Riot Client (launch VALORANT if needed).`
+    );
+  }
+  if (!auth.accessToken || !auth.token || !auth.subject) {
+    throw new Error('The Riot Client is not logged in yet. Log in, then refresh.');
+  }
+
+  // Best effort: show which account this is so you can tell a stale or wrong login at a glance.
+  let account: string | undefined;
+  try {
+    const alias = await localGet<{ game_name?: string; tag_line?: string }>(lock, '/player-account/aliases/v1/active');
+    if (alias.game_name) account = `${alias.game_name}#${alias.tag_line ?? ''}`;
+  } catch {
+    /* optional */
+  }
+  return { ...auth, account };
+}
+
+const STORE_FALLBACK_STATUSES = [404, 405, 410];
+
+export async function fetchLiveStore(
+  auth: LocalAuth,
+  skins: Skin[],
+  fetchImpl: typeof fetch = fetch
+): Promise<LiveStore> {
   const shard = (process.env.VALO_SHARD ?? '').toLowerCase();
   if (!SHARDS.includes(shard)) {
     throw new Error(`Set VALO_SHARD to your region shard (${SHARDS.join(', ')}).`);
   }
 
-  let lock: Lockfile;
-  try {
-    lock = parseLockfile(fs.readFileSync(/*turbopackIgnore: true*/ lockfilePath(), 'utf8'));
-  } catch {
-    throw new Error('Riot Client lockfile not found. Start the Riot Client (the game need not be running).');
-  }
-
-  const auth = await localGet<{ accessToken: string; token: string; subject: string }>(
-    lock,
-    '/entitlements/v1/token'
-  );
-
-  const versionRes = await fetch('https://valorant-api.com/v1/version');
+  const versionRes = await fetchImpl('https://valorant-api.com/v1/version');
   const version = ((await versionRes.json()) as { data?: { riotClientVersion?: string } }).data?.riotClientVersion;
 
-  const res = await fetch(`https://pd.${shard}.a.pvp.net/store/v3/storefront/${auth.subject}`, {
+  const headers = {
+    Authorization: `Bearer ${auth.accessToken}`,
+    'X-Riot-Entitlements-JWT': auth.token,
+    'X-Riot-ClientPlatform': CLIENT_PLATFORM,
+    'X-Riot-ClientVersion': version ?? '',
+  };
+  const base = `https://pd.${shard}.a.pvp.net/store`;
+
+  // Current community-documented call is v3 (POST, empty body). Fall back to the older v2 GET if
+  // v3 is gone. Both are read-only.
+  let res = await fetchImpl(`${base}/v3/storefront/${auth.subject}`, {
     method: 'POST',
-    headers: {
-      Authorization: `Bearer ${auth.accessToken}`,
-      'X-Riot-Entitlements-JWT': auth.token,
-      'X-Riot-ClientPlatform': CLIENT_PLATFORM,
-      'X-Riot-ClientVersion': version ?? '',
-      'Content-Type': 'application/json',
-    },
+    headers: { ...headers, 'Content-Type': 'application/json' },
     body: '{}',
     cache: 'no-store',
   });
+  if (STORE_FALLBACK_STATUSES.includes(res.status)) {
+    res = await fetchImpl(`${base}/v2/storefront/${auth.subject}`, { headers, cache: 'no-store' });
+  }
+  if (res.status === 401 || res.status === 403) {
+    throw new Error(
+      `Riot rejected the token (${res.status}). Re-login in the Riot Client, or check VALO_SHARD matches your account's region.`
+    );
+  }
   if (!res.ok) throw new Error(`Riot storefront returned ${res.status}. The endpoint may have changed.`);
 
-  return mapStorefront((await res.json()) as RawStorefront, skins);
+  const store = mapStorefront((await res.json()) as RawStorefront, skins);
+  return { ...store, account: auth.account };
 }
