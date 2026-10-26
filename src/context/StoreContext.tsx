@@ -120,19 +120,16 @@ export function StoreContextProvider({ children }: { children: React.ReactNode }
         prov.getNightMarketOffers ? prov.getNightMarketOffers() : Promise.resolve({ data: [] }),
       ]);
 
+      // Clear previous provider's data when the new one returns none (e.g. demo -> live).
       if (offersRes.error) {
         setError(offersRes.error);
+        setDailyStore(null);
       } else if (offersRes.data) {
         setDailyStore(offersRes.data);
       }
 
-      if (bundleRes.data) {
-        setBundle(bundleRes.data);
-      }
-
-      if (nmRes.data) {
-        setNightMarket(nmRes.data);
-      }
+      setBundle(bundleRes.data ?? null);
+      setNightMarket(nmRes.data ?? []);
     } catch (err: unknown) {
       setError(err instanceof Error ? err.message : 'Failed to load store data');
     } finally {
@@ -176,23 +173,21 @@ export function StoreContextProvider({ children }: { children: React.ReactNode }
 
         if (isCancelled) return;
 
+        // Clear previous provider's data when the new one returns none (e.g. demo -> live).
         if (offersRes.error) {
           setError(offersRes.error);
+          setDailyStore(null);
         } else if (offersRes.data) {
           setDailyStore(offersRes.data);
         }
 
-        if (bundleRes.data) {
-          setBundle(bundleRes.data);
-        }
+        setBundle(bundleRes.data ?? null);
 
         if (catalogRes.data) {
           setCatalog(catalogRes.data);
         }
 
-        if (nmRes.data) {
-          setNightMarket(nmRes.data);
-        }
+        setNightMarket(nmRes.data ?? []);
       } catch (err: unknown) {
         if (!isCancelled) {
           setError(err instanceof Error ? err.message : 'Failed to initialize store provider');

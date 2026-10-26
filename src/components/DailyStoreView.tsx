@@ -55,18 +55,18 @@ export const DailyStoreView: React.FC = () => {
                 SECURITY BARRIER
               </span>
               <h2 className="text-xl font-bold text-white font-mono">
-                Live Storefront API Unavailable
+                Live Store Unavailable
               </h2>
             </div>
             <p className="text-sm text-[#A0B0C0] leading-relaxed">
-              Official Riot Games API policy strictly limits public access to gameplay, esports, and
-              catalog metadata. Riot does not expose player daily store endpoints via official OAuth2 scopes.
+              {error ??
+                'Live mode reads your store through the Riot Client on this machine. See the README to enable it.'}
             </p>
             <div className="p-4 bg-[#0B0F15] border-l-2 border-[#FF4655] text-xs font-mono text-[#8EA0B0] space-y-1">
-              <div>{'//'} ZERO-CREDENTIAL SAFEGUARD</div>
-              <div>• No password inputs accepted</div>
-              <div>• No session cookie or token extraction</div>
-              <div>• Fully compliant with Riot Games Terms of Service</div>
+              <div>{'//'} LIVE MODE (UNOFFICIAL, OPT-IN)</div>
+              <div>• No password inputs, no cookies</div>
+              <div>• Token read from your local Riot Client, never stored or logged</div>
+              <div>• Not supported by Riot: account risk can&apos;t be ruled out</div>
             </div>
             <div className="flex flex-wrap items-center gap-3 pt-2">
               <button

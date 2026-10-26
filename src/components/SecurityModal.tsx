@@ -52,7 +52,7 @@ export const SecurityModal: React.FC = () => {
               <span>1. Zero Credential Ingestion or Persistence</span>
             </div>
             <p>
-              This application is built with a non-negotiable security boundary: <strong>it will never ask you to enter your Riot password, username, or multi-factor authentication (MFA) codes</strong>. It does not perform memory scraping, browser-cookie extraction, or undocumented network interception.
+              This application is built with a non-negotiable security boundary: <strong>it will never ask you to enter your Riot password, username, or multi-factor authentication (MFA) codes</strong>. It does not read browser cookies or scrape memory. Optional Live Mode (off by default) is unofficial: it reads an access token from your local Riot Client and makes one read-only storefront request to Riot. The token is never stored, logged, or sent to the browser.
             </p>
           </div>
 
@@ -77,7 +77,7 @@ export const SecurityModal: React.FC = () => {
               <span>3. Modular StoreProvider Architecture</span>
             </div>
             <p>
-              All storefront components render against a strictly typed <code className="text-[#00F5D4]">StoreProvider</code> TypeScript interface. The current active provider is <code className="text-white">DemoStoreProvider</code>, which generates simulated, deterministic rotations with estimated prices. A placeholder <code className="text-white">LiveStoreProvider</code> is included in the codebase, safely reporting an <code className="text-[#FF8591]">unavailable</code> status until an official authorized Riot OAuth2 integration is possible.
+              All storefront components render against a strictly typed <code className="text-[#00F5D4]">StoreProvider</code> TypeScript interface. The current active provider is <code className="text-white">DemoStoreProvider</code>, which generates simulated, deterministic rotations with estimated prices. The opt-in <code className="text-white">LiveStoreProvider</code> reports <code className="text-[#FF8591]">unavailable</code> unless you enable Live Mode (see README). Riot does not support it, so it carries account risk that no one can rule out.
             </p>
           </div>
 
