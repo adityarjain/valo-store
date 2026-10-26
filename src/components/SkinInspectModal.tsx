@@ -8,6 +8,7 @@ import { VpIcon } from './VpIcon';
 import { X, Star, Heart, Film, Play, Layers, Sparkles } from 'lucide-react';
 import { playSound } from '@/utils/audio';
 import { hasPrice, PRICE_UNAVAILABLE } from '@/utils/price';
+import { EstMark } from '@/components/EstMark';
 
 interface InspectContentProps {
   skin: Skin;
@@ -276,6 +277,7 @@ const SkinInspectModalContent: React.FC<InspectContentProps> = ({ skin, price, o
               {hasPrice(price ?? skin.defaultPrice)
                 ? `${(price ?? skin.defaultPrice)!.toLocaleString()} VP`
                 : PRICE_UNAVAILABLE}
+              {hasPrice(price ?? skin.defaultPrice) && <EstMark status={skin.priceStatus} note={skin.priceNote} />}
             </span>
           </div>
         </div>

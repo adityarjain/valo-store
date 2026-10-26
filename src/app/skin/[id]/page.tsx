@@ -22,6 +22,7 @@ import {
 } from 'lucide-react';
 import { playSound } from '@/utils/audio';
 import { hasPrice, PRICE_UNAVAILABLE } from '@/utils/price';
+import { EstMark } from '@/components/EstMark';
 
 function SkinDetailPageContent() {
   const params = useParams();
@@ -261,6 +262,7 @@ function SkinDetailPageContent() {
                 <span className="text-[10px] font-mono text-[#6E7E8F] uppercase">STANDARD PRICE</span>
                 <span className="font-mono font-black text-2xl text-white">
                   {hasPrice(skin.defaultPrice) ? `${skin.defaultPrice.toLocaleString()} VP` : PRICE_UNAVAILABLE}
+                  {hasPrice(skin.defaultPrice) && <EstMark status={skin.priceStatus} note={skin.priceNote} />}
                 </span>
               </div>
             </div>

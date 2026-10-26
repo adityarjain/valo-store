@@ -20,6 +20,7 @@ import {
 } from 'lucide-react';
 import { playSound } from '@/utils/audio';
 import { hasPrice, comparePrice, PRICE_UNAVAILABLE } from '@/utils/price';
+import { EstMark } from '@/components/EstMark';
 
 const MAX_PRICE = 6000; // slider maximum; at this value the price filter is effectively off
 
@@ -498,6 +499,7 @@ export const CatalogueView: React.FC = () => {
                       <span className="font-mono text-xs text-white font-bold">
                         {hasPrice(skin.defaultPrice) ? skin.defaultPrice.toLocaleString() : PRICE_UNAVAILABLE}
                       </span>
+                      {hasPrice(skin.defaultPrice) && <EstMark status={skin.priceStatus} note={skin.priceNote} />}
                     </div>
 
                     <div className="flex items-center gap-1">

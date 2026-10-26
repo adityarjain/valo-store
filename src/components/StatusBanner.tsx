@@ -34,8 +34,8 @@ export const StatusBanner: React.FC = () => {
           <p className="text-[12px] leading-tight">
             {isDemo ? (
               <span>
-                <strong className="text-white">Deterministic Daily Rotation.</strong> Authentic
-                cosmetics & pricing loaded without requesting or storing Riot credentials.
+                <strong className="text-white">Deterministic Daily Rotation.</strong> Real
+                cosmetics with estimated prices, loaded without requesting or storing Riot credentials.
               </span>
             ) : (
               <span>

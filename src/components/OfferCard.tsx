@@ -8,6 +8,7 @@ import { VpIcon } from './VpIcon';
 import { Star, Heart, Eye, CheckCircle2, AlertCircle } from 'lucide-react';
 import { playSound } from '@/utils/audio';
 import { hasPrice, PRICE_UNAVAILABLE } from '@/utils/price';
+import { EstMark } from '@/components/EstMark';
 
 interface OfferCardProps {
   offer: StoreOffer;
@@ -171,6 +172,7 @@ export const OfferCard: React.FC<OfferCardProps> = ({ offer, slotIndex = 0 }) =>
               {hasPrice(offer.price) ? offer.price.toLocaleString() : PRICE_UNAVAILABLE}
             </span>
             {hasPrice(offer.price) && <span className="text-[10px] font-mono text-[#6A7885]">VP</span>}
+            {hasPrice(offer.price) && <EstMark status={skin.priceStatus} note={skin.priceNote} />}
           </div>
 
           <div className="text-right">
