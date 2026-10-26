@@ -12,6 +12,7 @@ import { fetchAllSkins } from '@/services/valorantApi';
 interface LivePayload {
   daily: DailyStoreResult;
   nightMarket: NightMarketOffer[];
+  account?: string;
 }
 
 // Talks only to this app's own /api/store route (local, opt-in, see src/server/riotLocalStore.ts).
@@ -48,7 +49,7 @@ export class LiveStoreProvider implements StoreProvider {
       providerName: 'Live Store (local Riot Client, unofficial)',
       version: '1.0.0',
       message: data
-        ? 'Showing your real store, read from the Riot Client on this machine.'
+        ? `Showing the real store for ${data.account ?? 'the account logged in to the Riot Client'}.`
         : error ?? 'Live store unavailable.',
       details:
         'Unofficial: Riot does not support this. No password or cookies are used; the access token is read from your local Riot Client, stays on this machine, and is only sent to Riot for one read-only storefront request.',

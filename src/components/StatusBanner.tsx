@@ -45,7 +45,7 @@ export const StatusBanner: React.FC = () => {
               </span>
             ) : (
               <span>
-                <strong className="text-white">{liveOk ? 'Your real store.' : 'Live unavailable.'}</strong>{' '}
+                <strong className="text-white">{liveOk ? 'Live.' : 'Live unavailable.'}</strong>{' '}
                 {status?.message} No password or cookies are used; Riot does not support this method.
               </span>
             )}
